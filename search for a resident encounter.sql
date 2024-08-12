@@ -6,4 +6,4 @@ and e.depart_dt_tm is null
 and e.location_cd = 46686151
 and rownum <= 15;
 
--- this is an SQL comment 2
+-- this is an SQL comment 3
