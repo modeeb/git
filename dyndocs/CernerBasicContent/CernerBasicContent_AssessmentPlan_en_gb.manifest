@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+    <filters>
+        <filter>
+            <name>Diagnoses</name>
+            <description>Diagnoses</description>
+            <file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Outpatient Assessment and Plan</name>
+            <description>Outpatient Assessment and Plan</description>
+            <file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Inpatient Assessment and Plan</name>
+            <description>Inpatient Assessment and Plan</description>
+            <file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+    </filters>
+    <formats>
+        <format>
+            <description>Assessment and Plan Common (Logic)</description>
+            <file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Assessment and Plan Inpatient</description>
+            <file>\cernerbasiccontent\formats\en_gb\inpatientaandp_en_gb.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Assessment and Plan Outpatient</description>
+            <file>\cernerbasiccontent\formats\en_gb\outpatientaandp_en_gb.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Assessment and Plan DX Only</description>
+            <file>\cernerbasiccontent\formats\en_gb\dxonlyaandp_en_gb.xslt</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </format>
+    </formats>
+    <emrcontents>
+        <emrcontent>
+            <name>Assessment and Plan Inpatient</name>
+            <description>Assessment and Plan Inpatient</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Inpatient Assessment and Plan\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\en_gb\inpatientaandp_en_gb.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Assessment and Plan Outpatient</name>
+            <description>Assessment and Plan Outpatient</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Outpatient Assessment and Plan\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\en_gb\outpatientaandp_en_gb.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Assessment and Plan DX Only</name>
+            <description>Assessment and Plan DX Only</description>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Diagnoses\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\en_gb\dxonlyaandp_en_gb.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+        </emrcontent>
+    </emrcontents>
+    <referencetemplates>
+        <referencetemplate>
+            <name>Inpatient - Assessment &amp; Plan</name>
+            <description>Inpatient Template used for assessment &amp; plan section in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\en_gb\assessmentplaninpatient_en_gb.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label label_type_mean="WKF_COMP" name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Outpatient - Assessment &amp; Plan</name>
+            <description>Outpatient Template used for assessment &amp; plan section in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\en_gb\assessmentplanoutpatient_en_gb.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label label_type_mean="WKF_COMP" name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Diagnoses Only - Assessment &amp; Plan</name>
+            <description>Diagnoses Only Template used for assessment &amp; plan section in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\en_gb\assessmentplandxonly_en_gb.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label label_type_mean="WKF_COMP" name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true"/>
+            </label_nkeys>
+        </referencetemplate>
+    </referencetemplates>
+</root>

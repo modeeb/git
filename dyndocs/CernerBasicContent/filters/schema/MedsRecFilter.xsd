@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="medsrecfilter" >
+		<xs:annotation>
+			<xs:documentation xml:lang="en">
+				This schema defines the format of a meds reconciliation filter XML structure.
+			 </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:boolean" name="overrideOrgSecurity" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+						<xs:documentation xml:lang="en"> 
+							If this filter is used with Dynamic Documentation, the solution will override the enc/org preference. 
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

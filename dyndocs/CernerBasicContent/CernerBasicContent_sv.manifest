@@ -1,0 +1,3182 @@
+<?xml version="1.0"?>
+<root>
+	<filters>
+		<filter>
+			<name>Patientfullmakt</name>
+			<description>Patientfullmakt</description>
+			<file>\cernerbasiccontent\filters\advancedirectivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Överkänslighet</name>
+			<description>Aktiv överkänslighet</description>
+			<file>\cernerbasiccontent\filters\allergyfilter.xml</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Bedömning och plan</name>
+			<description>Bedömning och plan</description>
+			<file>\cernerbasiccontent\filters\ipfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Beteendemässiga hälsoproblem</name>
+			<description>Beteendemässiga hälsoproblem</description>
+			<file>\cernerbasiccontent\filters\behavioralhealthissuesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sökorsak</name>
+			<description>Sökorsak</description>
+			<file>\cernerbasiccontent\filters\chiefcomplaintfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sökorsak och vårdkontaktsorsak</name>
+			<description>Sökorsak och vårdkontaktsorsak</description>
+			<file>\cernerbasiccontent\filters\cc_rfvfilter.xml</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Enheter och utrustning</name>
+			<description>Enheter och utrustning</description>
+			<file>\cernerbasiccontent\filters\devicesequipmentfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Diagnoser</name>
+			<description>Diagnoser</description>
+			<file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Utskrivningsdatum</name>
+			<description>Utskrivningsdatum</description>
+			<file>\cernerbasiccontent\filters\dischargedatefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Utskrivningssätt</name>
+			<description>Utskrivningssätt</description>
+			<file>\cernerbasiccontent\filters\dischargedispositionfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Diagnosordinationer</name>
+			<description>Diagnoser och ordinationer med kopplingar</description>
+			<file>\cernerbasiccontent\filters\dxordersfilter.xml</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vårdhändelse</name>
+			<description>Vårdhändelse</description>
+			<file>\cernerbasiccontent\filters\encounterfilter.xml</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hereditetshistorik</name>
+			<description>Hereditetshistorik</description>
+			<file>\cernerbasiccontent\filters\familyhistory.xml</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Uppföljning</name>
+			<description>Uppföljning</description>
+			<file>\cernerbasiccontent\filters\followupfilter.xml</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Fotnoter</name>
+			<description>Fotnoter</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kognitiva funktioner</name>
+			<description>Kognitiva funktioner</description>
+			<file>\cernerbasiccontent\filters\functionalcognitivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kommande besök</name>
+			<description>Kommande besök</description>
+			<file>\cernerbasiccontent\filters\futureapptsfilter.xml</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kommande ordinationer</name>
+			<description>Kommande ordinationer</description>
+			<file>\cernerbasiccontent\filters\futureordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kommande ordinationer, för patient</name>
+			<description>Kommande ordinationer, för patient</description>
+			<file>\cernerbasiccontent\filters\futureordersfilterptfacing.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Mål</name>
+			<description>Mål</description>
+			<file>\cernerbasiccontent\filters\goalsfilter.xml</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hälsoproblem</name>
+			<description>Hälsoproblem</description>
+			<file>\cernerbasiccontent\filters\healthconcernsfilter.xml</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hälsostatus</name>
+			<description>Hälsostatus</description>
+			<file>\cernerbasiccontent\filters\healthstatusfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Aktuell sjukdomshistorik</name>
+			<description>Aktuell sjukdomshistorik</description>
+			<file>\cernerbasiccontent\filters\hpifilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Behandlingar i hemmet</name>
+			<description>Behandlingar i hemmet</description>
+			<file>\cernerbasiccontent\filters\hometreatmentsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sjukhusvistelse</name>
+			<description>Sjukhusvistelse</description>
+			<file>\cernerbasiccontent\filters\hospitalcoursefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Bilder</name>
+			<description>Bilder</description>
+			<file>\cernerbasiccontent\filters\taggedimagefilter.xml</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vaccination vid detta besök</name>
+			<description>Vaccination vid detta besök</description>
+			<file>\cernerbasiccontent\filters\immunizationsthisvisit.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vaccinationer</name>
+			<description>Vaccinationer</description>
+			<file>\cernerbasiccontent\filters\immunizationsv2filter.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Implanterade enheter</name>
+			<description>Implanterade enheter</description>
+			<file>\cernerbasiccontent\filters\implanteddevicesencounterlevelfilter.xml</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Provsvar</name>
+			<description>Provsvar</description>
+			<file>\cernerbasiccontent\filters\labsfilter.xml</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Provsvar V2</name>
+			<description>Provsvar V2</description>
+			<file>\cernerbasiccontent\filters\labsv2filter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Senaste bedömning och plan</name>
+			<description>Senaste bedömning och plan</description>
+			<file>\cernerbasiccontent\filters\lastapfilter.xml</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Läkemedel</name>
+			<description>Ordinerade läkemedel</description>
+			<file>\cernerbasiccontent\filters\medicationsfilter.xml</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Läkemedelsadministrering</name>
+			<description>Läkemedelsadministrering</description>
+			<file>\cernerbasiccontent\filters\medsadmin.xml</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Läkemedelsavstämning</name>
+			<description>Läkemedelsavstämning</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Läkemedelsavstämning, förenklad</name>
+			<description>Läkemedelsavstämning, förenklad</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Transportsätt vid utskrivning</name>
+			<description>Transportsätt vid utskrivning</description>
+			<file>\cernerbasiccontent\filters\modedischargetransportationfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Resultat för patientnära test</name>
+			<description>Resultat för patientnära test</description>
+			<file>\cernerbasiccontent\filters\poctestresultsfilter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patientinformation</name>
+			<description>Patientinformation</description>
+			<file>\cernerbasiccontent\filters\patedfilter.xml</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patientinstruktioner</name>
+			<description>Patientinstruktioner</description>
+			<file>\cernerbasiccontent\filters\patientinstructionsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kroppsundersökning</name>
+			<description>Kroppsundersökning</description>
+			<file>\cernerbasiccontent\filters\pefilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Utskrivningsordinationer efter slutenvård</name>
+			<description>Utskrivningsordinationer efter slutenvård</description>
+			<file>\cernerbasiccontent\filters\pacdischargeordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hälsoproblem – alla</name>
+			<description>Aktiva hälsoproblem</description>
+			<file>\cernerbasiccontent\filters\problemfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hälsoproblem – medicinska</name>
+			<description>Aktiva medicinska hälsoproblem</description>
+			<file>\cernerbasiccontent\filters\problemmedicalfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Åtgärder</name>
+			<description>Åtgärder</description>
+			<file>\cernerbasiccontent\filters\proceduresfilter.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Åtgärder vid detta besök</name>
+			<description>Åtgärder vid detta besök</description>
+			<file>\cernerbasiccontent\filters\proceduresfilterthisvisit.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hälso- och sjukvårdstjänster</name>
+			<description>Hälso- och sjukvårdstjänster</description>
+			<file>\cernerbasiccontent\filters\proskillservicesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Radiologi</name>
+			<description>Radiologiordinationer och -resultat</description>
+			<file>\cernerbasiccontent\filters\radsfilter.xml</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sammanfattning av vistelse</name>
+			<description>Sammanfattning av vistelse</description>
+			<file>\cernerbasiccontent\filters\recapitulationofstayfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Remisser</name>
+			<description>Remisser</description>
+			<file>\cernerbasiccontent\filters\referralordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Kontroll av system</name>
+			<description>Kontroll av system</description>
+			<file>\cernerbasiccontent\filters\rosfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Social historik</name>
+			<description>Social historik</description>
+			<file>\cernerbasiccontent\filters\socialhistoryfilter.xml</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Speciella tjänster och resurser på lokal nivå</name>
+			<description>Speciella tjänster och resurser på lokal nivå</description>
+			<file>\cernerbasiccontent\filters\specialservicescommunityresourcesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Tagg – Taggad text</name>
+			<description>Taggad text i Urklipp</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Testresultat</name>
+			<description>Slutförda och väntande labbtester</description>
+			<file>\cernerbasiccontent\filters\testresultsfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Väntande test</name>
+			<description>Väntande labb- och radiologiresultat</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Utförda tester</name>
+			<description>Slutförda och väntande labb- och radiologitester</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden</name>
+			<description>Vitalparametrar och mätvärden</description>
+			<file>\cernerbasiccontent\filters\vitalsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden, kardiologi</name>
+			<description>Vitalparametrar och mätvärden, kardiologi</description>
+			<file>\cernerbasiccontent\filters\vitalscardiologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden, AKM</name>
+			<description>Vitalparametrar och mätvärden, AKM</description>
+			<file>\cernerbasiccontent\filters\vitalsedfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden, neurologi</name>
+			<description>Vitalparametrar och mätvärden, neurologi</description>
+			<file>\cernerbasiccontent\filters\vitalsneurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden, för patient</name>
+			<description>Vitalparametrar och mätvärden, för patient</description>
+			<file>\cernerbasiccontent\filters\vitalsfilterptfacing.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitalparametrar och mätvärden, urologi</name>
+			<description>Vitalparametrar och mätvärden, urologi</description>
+			<file>\cernerbasiccontent\filters\vitalsurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+	</filters>
+	<formats>
+		<format>
+			<description>Adress</description>
+			<file>\cernerbasiccontent\formats\sv\addressfxn_sv.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Adress (logik)</description>
+			<file>\cernerbasiccontent\formats\addressfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Överkänslighet</description>
+			<file>\cernerbasiccontent\formats\sv\allergy_sv.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Överkänslighet (logik)</description>
+			<file>\cernerbasiccontent\formats\allergy.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Bedömning och plan</description>
+			<file>\cernerbasiccontent\formats\ip.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vårdteam</description>
+			<file>\cernerbasiccontent\formats\sv\careteam_sv.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vårdteam (logik)</description>
+			<file>\cernerbasiccontent\formats\careteam.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sökorsak och vårdkontaktsorsak</description>
+			<file>\cernerbasiccontent\formats\sv\ccrfv_sv.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sökorsak och vårdkontaktsorsak (logik)</description>
+			<file>\cernerbasiccontent\formats\ccrfv.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vanlig (logik)</description>
+			<file>\cernerbasiccontent\formats\commonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Datumformat</description>
+			<file>\cernerbasiccontent\formats\sv\dateformat_sv.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Alias Plats Registrering Ansvarig läkare (logik)</description>
+			<file>\cernerbasiccontent\formats\demoaliaslocregproviders.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Alias Plats Registrering Vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\demoaliaslocregproviders_sv.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Språk Etnisk grupp Etnicitet</description>
+			<file>\cernerbasiccontent\formats\sv\demolangraceethn_sv.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Språk Etniskt grupp Etnicitet (logik)</description>
+			<file>\cernerbasiccontent\formats\demolangraceethn.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Namn Kontakt Kön Födelsedatum</description>
+			<file>\cernerbasiccontent\formats\sv\demonamecontactgenderdob_sv.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Namn Kontakt Kön Födelsedatum (logik)</description>
+			<file>\cernerbasiccontent\formats\demonamecontactgenderdob.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Namn Födelsedatum Journalnummer Besöksdatum</description>
+			<file>\cernerbasiccontent\formats\sv\demographicsptfacing_sv.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter Namn Födelsedatum Journalnummer Besöksdatum (logik)</description>
+			<file>\cernerbasiccontent\formats\demographicsptfacing.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Basuppgifter, patientens fullständiga namn</description>
+			<file>\cernerbasiccontent\formats\demoptnamefull.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoser</description>
+			<file>\cernerbasiccontent\formats\sv\diagnoses_sv.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoser (logik)</description>
+			<file>\cernerbasiccontent\formats\diagnoses.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vanliga diagnoser (logik)</description>
+			<file>\cernerbasiccontent\formats\dxcommonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoser, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\diagnosespatient_sv.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnostabell (logik)</description>
+			<file>\cernerbasiccontent\formats\diagnosestable.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoser, tabellayout</description>
+			<file>\cernerbasiccontent\formats\sv\diagnosestable_sv.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Utskrivningsordinationer</description>
+			<file>\cernerbasiccontent\formats\sv\dischargeorders_sv.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Utskrivningsordinationer (logik)</description>
+			<file>\cernerbasiccontent\formats\dischargeorders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoskoder</description>
+			<file>\cernerbasiccontent\formats\sv\dxcodes_sv.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoskoder (logik)</description>
+			<file>\cernerbasiccontent\formats\dxcodes.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosordinationer</description>
+			<file>\cernerbasiccontent\formats\sv\dxorder_sv.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosordinationer (logik)</description>
+			<file>\cernerbasiccontent\formats\dxorder.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientjournalsinformation, vanlig</description>
+			<file>\cernerbasiccontent\formats\emrinfocommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hereditetshistorik</description>
+			<file>\cernerbasiccontent\formats\sv\familyhistory_sv.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hereditetshistorik (logik)</description>
+			<file>\cernerbasiccontent\formats\familyhistory.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning</description>
+			<file>\cernerbasiccontent\formats\sv\followup_sv.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning (logik)</description>
+			<file>\cernerbasiccontent\formats\followup.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\followupptfacing_sv.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning, för patient (logik)</description>
+			<file>\cernerbasiccontent\formats\followupptfacing.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning för vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\followupprovider_sv.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Uppföljning för vårdpersonal (logik)</description>
+			<file>\cernerbasiccontent\formats\followupprovider.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Fotnoter</description>
+			<file>\cernerbasiccontent\formats\sv\footnote_sv.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Fotnoter (logik)</description>
+			<file>\cernerbasiccontent\formats\footnote.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kognitiva funktioner, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\functionalcognitive_ptfacing_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kommande besök</description>
+			<file>\cernerbasiccontent\formats\sv\futureappts_sv.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kommande besök (logik)</description>
+			<file>\cernerbasiccontent\formats\futureappts.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kommande besök, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\futureapptsptfacing_sv.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kommande besök, för patient (logik)</description>
+			<file>\cernerbasiccontent\formats\futureapptsptfacing.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål</description>
+			<file>\cernerbasiccontent\formats\sv\goals_sv.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål (logik)</description>
+			<file>\cernerbasiccontent\formats\goals.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål, vanlig logik</description>
+			<file>\cernerbasiccontent\formats\goalscommon.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för mål och utfall</description>
+			<file>\cernerbasiccontent\formats\sv\goalsoutcomestable_sv.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för mål och utfall (logik)</description>
+			<file>\cernerbasiccontent\formats\goalsoutcomestable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för enbart mål</description>
+			<file>\cernerbasiccontent\formats\sv\goalsgoalstable_sv.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för enbart mål (logik)</description>
+			<file>\cernerbasiccontent\formats\goalsgoalstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för enbart interventioner</description>
+			<file>\cernerbasiccontent\formats\sv\goalsinterventionstable_sv.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Mål: tabellayout för enbart interventioner (logik)</description>
+			<file>\cernerbasiccontent\formats\goalsinterventionstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem</description>
+			<file>\cernerbasiccontent\formats\sv\healthconcerns_sv.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem (logik)</description>
+			<file>\cernerbasiccontent\formats\healthconcerns.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, tabell (logik)</description>
+			<file>\cernerbasiccontent\formats\healthconcernstable.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, tabellayout</description>
+			<file>\cernerbasiccontent\formats\sv\healthconcernstable_sv.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsostatustabell</description>
+			<file>\cernerbasiccontent\formats\sv\healthstatustable_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsostatus, tabell (logik)</description>
+			<file>\cernerbasiccontent\formats\healthstatustable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Aktuell sjukdomshistorik</description>
+			<file>\cernerbasiccontent\formats\hpi.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sjukhusvistelse</description>
+			<file>\cernerbasiccontent\formats\sv\hospitalcourse_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sjukhusvistelse (logik)</description>
+			<file>\cernerbasiccontent\formats\hospitalcourse.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Bilder</description>
+			<file>\cernerbasiccontent\formats\sv\images_sv.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Bilder (logik)</description>
+			<file>\cernerbasiccontent\formats\images.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccination, vanlig (logik)</description>
+			<file>\cernerbasiccontent\formats\immunizationcommon.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccination vid detta besök</description>
+			<file>\cernerbasiccontent\formats\sv\immunizationsthisvisit_sv.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccination vid detta besök (logik)</description>
+			<file>\cernerbasiccontent\formats\immunizationsthisvisit.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccination vid detta besök, för vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\immunizationsthisvisitprovider_sv.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccinationer</description>
+			<file>\cernerbasiccontent\formats\sv\immunizations_sv.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccinationer (logik)</description>
+			<file>\cernerbasiccontent\formats\immunizations.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vaccinationer, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\immunizations_ptfacing_sv.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Implanterade enheter</description>
+			<file>\cernerbasiccontent\formats\sv\implanteddevices_sv.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Implanterade enheter (logik)</description>
+			<file>\cernerbasiccontent\formats\implanteddevices.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Implanterade enheter, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\implanteddevicespatient_sv.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problem vid långtidsvård, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\ltcproblem_ptfacing_sv.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Provsvar v2 (logik)</description>
+			<file>\cernerbasiccontent\formats\labsv2.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Provsvar v2, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\labsv2patient_sv.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Provsvar v2, för patient med tidsfönster</description>
+			<file>\cernerbasiccontent\formats\sv\labsv2patient_timewindow_sv.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Provsvar v2 för vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\labsv2provider_sv.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Senaste bedömning plan</description>
+			<file>\cernerbasiccontent\formats\sv\lastap_sv.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Senaste bedömning plan (logik)</description>
+			<file>\cernerbasiccontent\formats\lastap.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel (logik)</description>
+			<file>\cernerbasiccontent\formats\meds.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsadministrering</description>
+			<file>\cernerbasiccontent\formats\sv\medsadmin_sv.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsadministrering (logik)</description>
+			<file>\cernerbasiccontent\formats\medsadmin.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsadministrering, vanliga (logik)</description>
+			<file>\cernerbasiccontent\formats\medsadmincommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel, vanliga (logik)</description>
+			<file>\cernerbasiccontent\formats\medscommon.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning</description>
+			<file>\cernerbasiccontent\formats\sv\medsrec_sv.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning (logik)</description>
+			<file>\cernerbasiccontent\formats\medsrec.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning, för läkare</description>
+			<file>\cernerbasiccontent\formats\sv\medsrecphysician_sv.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning, för läkare (logik)</description>
+			<file>\cernerbasiccontent\formats\medsrecphysician.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Visa nästa doskolumn för läkemedelsavstämning</description>
+			<file>\cernerbasiccontent\formats\sv\medsrec_nextdose_sv.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning, förenklad</description>
+			<file>\cernerbasiccontent\formats\sv\medsrecsimplified_sv.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning, förenklad (logik)</description>
+			<file>\cernerbasiccontent\formats\medsrecsimplified.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedelsavstämning utan oförändrade läkemedel</description>
+			<file>\cernerbasiccontent\formats\sv\medsrec_withoutunchangedmeds_sv.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel med kategoriserad visning (logik)</description>
+			<file>\cernerbasiccontent\formats\medscategorized.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel efter kategori, förskrivna och receptfria läkemedel</description>
+			<file>\cernerbasiccontent\formats\sv\medscategorizedhome_sv.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel efter kategori, förskrivna och receptfria läkemedel (logik)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedhome.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel efter kategori, slutenvård</description>
+			<file>\cernerbasiccontent\formats\sv\medscategorizedinpatient_sv.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel efter kategori, slutenvård (logik)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedinpatient.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel</description>
+			<file>\cernerbasiccontent\formats\sv\meds_sv.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel, i18n vanliga</description>
+			<file>\cernerbasiccontent\formats\sv\medsi18ncommon_sv.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Läkemedel efter kategori</description>
+			<file>\cernerbasiccontent\formats\sv\medscategorized_sv.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Transportsätt vid utskrivning</description>
+			<file>\cernerbasiccontent\formats\sv\modeofdischargetransportation_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Transportsätt vid utskrivning (logik)</description>
+			<file>\cernerbasiccontent\formats\modeofdischargetransportation.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Ordinationer</description>
+			<file>\cernerbasiccontent\formats\sv\orders_sv.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Ordinationer (logik)</description>
+			<file>\cernerbasiccontent\formats\orders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientvårdsmätning</description>
+			<file>\cernerbasiccontent\formats\sv\patcaremeasurement_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientvårdsmätning (logik)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientvårdsmätning, vanlig (logik)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientvårdsmätningar, tabell</description>
+			<file>\cernerbasiccontent\formats\sv\patcaremeasurementstable_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientvårdsmätningar, tabell (logik)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementstable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Namnvärde för patientvårdsmätning</description>
+			<file>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Namnvärde för patientvårdsmätning (logik)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement_namevalue.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Namnvärde för patientvårdsmätning, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinformation</description>
+			<file>\cernerbasiccontent\formats\sv\pated_sv.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinformation (logik)</description>
+			<file>\cernerbasiccontent\formats\pated.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinformation för vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\patedprovider_sv.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinformation för vårdpersonal (logik)</description>
+			<file>\cernerbasiccontent\formats\patedprovider.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinstruktioner</description>
+			<file>\cernerbasiccontent\formats\sv\patientinstructions_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patientinstruktioner (logik)</description>
+			<file>\cernerbasiccontent\formats\patientinstructions.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kroppsundersökning</description>
+			<file>\cernerbasiccontent\formats\pe.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem</description>
+			<file>\cernerbasiccontent\formats\sv\problem_sv.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem (logik)</description>
+			<file>\cernerbasiccontent\formats\problem.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, vanliga (logik)</description>
+			<file>\cernerbasiccontent\formats\problemcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\problempatient_sv.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, för patient (logik)</description>
+			<file>\cernerbasiccontent\formats\problempatient.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblemstabell (logik)</description>
+			<file>\cernerbasiccontent\formats\problemtable.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hälsoproblem, tabellayout</description>
+			<file>\cernerbasiccontent\formats\sv\problemtable_sv.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Åtgärder</description>
+			<file>\cernerbasiccontent\formats\sv\procedures_sv.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Åtgärder (logik)</description>
+			<file>\cernerbasiccontent\formats\procedures.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi (logik)</description>
+			<file>\cernerbasiccontent\formats\rads.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi, vanlig (logik)</description>
+			<file>\cernerbasiccontent\formats\radscommon.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\radspatient_sv.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi, för patient med tidsfönster</description>
+			<file>\cernerbasiccontent\formats\sv\radspatient_timewindow_sv.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi för vårdpersonal</description>
+			<file>\cernerbasiccontent\formats\sv\radsprovider_sv.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi för vårdpersonal (logik)</description>
+			<file>\cernerbasiccontent\formats\radsprovider.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Radiologi, i18n vanlig</description>
+			<file>\cernerbasiccontent\formats\sv\radsi18ncommon_sv.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Logik för återanvändbar tabell</description>
+			<file>\cernerbasiccontent\formats\tablecommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Kontroll av system</description>
+			<file>\cernerbasiccontent\formats\ros.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Social historik</description>
+			<file>\cernerbasiccontent\formats\sv\socialhistory_sv.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Social historik (logik)</description>
+			<file>\cernerbasiccontent\formats\socialhistory.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabell för mätvärden, vanlig (logik)</description>
+			<file>\cernerbasiccontent\formats\tablemeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggade bilder</description>
+			<file>\cernerbasiccontent\formats\tag\sv\taggedimages_sv.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggade bilder (logik)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedimages.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggade provsvar</description>
+			<file>\cernerbasiccontent\formats\tag\sv\taggedlabs_sv.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggade provsvar (logik)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedlabs.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggad text</description>
+			<file>\cernerbasiccontent\formats\tag\sv\taggedtext_sv.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tagg – Taggad text (logik)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedtext.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testresultat</description>
+			<file>\cernerbasiccontent\formats\sv\testresults_sv.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Väntande test</description>
+			<file>\cernerbasiccontent\formats\sv\testspending_sv.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Väntande test (logik)</description>
+			<file>\cernerbasiccontent\formats\testspending.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Väntande test, för patient med tidsfönster</description>
+			<file>\cernerbasiccontent\formats\sv\testspending_timewindow_sv.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Utförda tester</description>
+			<file>\cernerbasiccontent\formats\sv\testsperformed_sv.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Utförda tester (logik)</description>
+			<file>\cernerbasiccontent\formats\testsperformed.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurement_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden (logik)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, kardiologi</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurementcardiology_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, kardiologi (logik)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcardiology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, vanliga (logik)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcommon.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, AKM</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasuremented_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, AKM (logik)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasuremented.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, neurologi</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurementneurology_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, neurologi (logik)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementneurology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurementptfacing_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, i18n vanliga</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurementi18ncommon_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitalparametrar och mätvärden, i18n vanliga, för patient</description>
+			<file>\cernerbasiccontent\formats\sv\vitalsmeasurementi18ncommonptfacing_sv.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+	</formats>
+	<emrcontents>
+		<emrcontent>
+			<name>Patientfullmakt</name>
+			<description>Patientfullmakt</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patientfullmakt\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2001A4E5-8086-469C-8F15-7C3E62C9D70A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patientfullmakt, för patient</name>
+			<description>Patientfullmakt, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patientfullmakt\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BFD90E95-27DF-4AEE-989C-6A7AF37BC5FA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Överkänslighet</name>
+			<description>Aktiv överkänslighet</description>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Överkänslighet\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\allergy_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1446A201-FD91-4A82-B645-306DC948DC48</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Bedömning och plan</name>
+			<description>Bedömning och plan</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Bedömning och plan\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ip.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9EE022D1-07D8-4002-9E5B-6586B61DA9FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Beteendemässiga hälsoproblem</name>
+			<description>Beteendemässiga hälsoproblem</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Beteendemässiga hälsoproblem\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F9651036-C2B3-42A0-B782-ED9699D9CF8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vårdteam</name>
+			<description>Vårdteam</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\careteam_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF358768-D939-4AAC-A86E-89595ECAD163</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sökorsak</name>
+			<description>Senaste sökorsak</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sökorsak\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>ECF53099-D2D3-4DCC-B002-CCEED9C6A6BA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sökorsak och vårdkontaktsorsak</name>
+			<description>Sökorsak och vårdkontaktsorsak</description>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sökorsak och vårdkontaktsorsak\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\ccrfv_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F2202DCE-7F67-4EFC-8887-151BD1E46A7D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Basuppgifter Alias Plats Registrering Vårdpersonal</name>
+			<description>Basuppgifter Alias Plats Registrering Vårdpersonal</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\demoaliaslocregproviders_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>165C11FB-7B7A-4AD6-91F6-D400F641D7FC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Basuppgifter Språk Etnisk grupp Etnicitet</name>
+			<description>Basuppgifter Språk Etnisk grupp Etnicitet</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\demolangraceethn_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5991C999-F0C9-4A35-94E3-B003475B2371</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Basuppgifter Namn Kontakt Kön Födelsedatum</name>
+			<description>Basuppgifter Namn Kontakt Kön Födelsedatum</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\demonamecontactgenderdob_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D688B080-37F0-49FB-86CB-D6E199601A27</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Basuppgifter, för patient</name>
+			<description>Basuppgifter, för patient</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\demographicsptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51F22E71-926B-4A97-A270-F9AF7DC50F8A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Basuppgifter, patientens fullständiga namn</name>
+			<description>Basuppgifter, patientens fullständiga namn</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vårdhändelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\demoptnamefull.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>48A18750-E486-48D4-BF32-4E8A4E214063</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Enheter och utrustning</name>
+			<description>Enheter och utrustning</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Enheter och utrustning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2D36578-30E0-43BF-9D58-AB61AF836BB6</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Enheter och utrustning, för patient</name>
+			<description>Enheter och utrustning, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Enheter och utrustning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E107B1EE-7134-4CBF-8656-80795FC3E20D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnoser</name>
+			<description>Diagnoslista</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnoser\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\diagnoses_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>12AF70F8-5460-46C7-9EAE-D05387420034</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnoser, för patient</name>
+			<description>Diagnoslista, för patient</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnoser\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\diagnosespatient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BB4D7BEC-C046-481D-8311-65659D75ED8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnoser, tabellayout</name>
+			<description>Diagnoser, tabellayout</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnoser\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\diagnosestable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D5F9A419-A2A3-44F0-AB30-CDCD9AC7330B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Utskrivningsdatum</name>
+			<description>Utskrivningsdatum</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Utskrivningsdatum\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>19570C91-55C6-4AA4-AAF5-67FC7A1BCF9D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Utskrivningssätt</name>
+			<description>Utskrivningssätt</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Utskrivningssätt\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9AA511BE-577B-4C6D-B1F0-B9EAA60CA05C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Utskrivningssätt, för patient</name>
+			<description>Utskrivningssätt, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Utskrivningssätt\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CB1601D3-1C01-4902-B4F4-2AC7C419229F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnoskoder</name>
+			<description>Diagnoskoder</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnosordinationer\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\dxcodes_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>452F3AB9-0E42-4109-B3AA-90C883275262</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnosordinationer</name>
+			<description>Aktiv diagnos med ordinationer</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnosordinationer\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\dxorder_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28ADF401-6012-454F-B8DF-CD5503253E54</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hereditetshistorik</name>
+			<description>Hereditetshistorik</description>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hereditetshistorik\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\familyhistory_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1F1618D1-D181-4E00-9B64-51F4895E7626</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Uppföljning</name>
+			<description>Uppföljning</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Uppföljning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\followup_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C9FF9E4D-285D-4C96-A248-104C01C3F326</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Uppföljning, för patient</name>
+			<description>Uppföljning</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Uppföljning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\followupptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>83F449B6-6106-46A4-8DD0-57D4ED4EB2AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Uppföljning för vårdpersonal</name>
+			<description>Uppföljning för vårdpersonal</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Uppföljning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\followupprovider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9DC024E8-603C-4A6A-83EA-8A96FE7EB9D2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Fotnoter</name>
+			<description>Fotnoter</description>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Fotnoter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\footnote_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03B1CB1F-B571-4AA9-8115-8CDDD8F34A28</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kognitiva funktioner</name>
+			<description>Kognitiva funktioner</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kognitiva funktioner\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurementstable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>84AFDA05-19B5-4667-8C1F-DC721F1AE024</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kognitiva funktioner, för patient</name>
+			<description>Kognitiva funktioner, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kognitiva funktioner\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\functionalcognitive_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D11AAB14-A6C3-48C4-A730-70B587B17EF2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kommande besök</name>
+			<description>Kommande besök</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kommande besök\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\futureappts_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18AF1EC5-77AB-4303-B720-E0006FBFA22F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kommande besök, för patient</name>
+			<description>Kommande besök, för patient</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kommande besök\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\futureapptsptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>877D911F-88C4-4F12-80FB-7C881ABC560A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kommande ordinationer, för patient</name>
+			<description>Kommande ordinationer, för patient</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kommande ordinationer, för patient\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\orders_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1C84763A-A375-4218-9F40-D4BAE0800374</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Mål</name>
+			<description>Mål</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Mål\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\goals_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A15ABF2F-12E1-4022-AE82-8838D192B41B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Mål: tabellayout för mål och utfall</name>
+			<description>Mål: tabellayout för mål och utfall</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Mål\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\goalsoutcomestable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>0EFA20EA-CFE4-437F-BD91-EFEDEFBE90D5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Mål: tabellayout för enbart mål</name>
+			<description>Mål: tabellayout för enbart mål</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Mål\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\goalsgoalstable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50BF1B4C-909C-469A-8012-95544F1F9805</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Mål: tabellayout för enbart interventioner</name>
+			<description>Mål: tabellayout för enbart interventioner</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Mål\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\goalsinterventionstable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51BB8D8B-A6D0-4571-BA69-91A696AFE1F7</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem</name>
+			<description>Hälsoproblem</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\healthconcerns_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EABE14DF-577E-4A05-918F-13135C5D4AFD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem, tabellayout</name>
+			<description>Hälsoproblem, tabellayout</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\healthconcernstable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9036D5E8-138F-43C9-9DA2-0C7EDDB3DFEF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsostatus</name>
+			<description>Hälsostatus</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsostatus\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\healthstatustable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>59E4A2D3-FE25-41B1-BC4A-11F6B5F357EC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Aktuell sjukdomshistorik</name>
+			<description>Aktuell sjukdomshistorik</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Aktuell sjukdomshistorik\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\hpi.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50300668-B513-41B3-828B-0F6E57E9CA89</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Behandlingar i hemmet</name>
+			<description>Behandlingar i hemmet</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Behandlingar i hemmet\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>348244CD-47D5-49FD-978E-24EF64684E3F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Behandlingar i hemmet, för patient</name>
+			<description>Behandlingar i hemmet, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Behandlingar i hemmet\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CAD4121E-E027-481D-BBD9-50D1B46F9493</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sjukhusvistelse</name>
+			<description>Sjukhusvistelse</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sjukhusvistelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\hospitalcourse_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B03472B3-2161-40C7-9A3D-0CF7FF75115E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Bilder</name>
+			<description>Bilder</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Bilder\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\images_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2D4D1119-2873-40E0-95AB-13A07C93662E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vaccination vid detta besök</name>
+			<description>Vaccination vid detta besök</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vaccination vid detta besök\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\immunizationsthisvisit_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>4C8BA0DA-6B38-4D47-B74E-A498CD916643</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vaccination vid detta besök, för vårdpersonal</name>
+			<description>Vaccination vid detta besök, för vårdpersonal</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vaccination vid detta besök\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\immunizationsthisvisitprovider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>101093D7-890B-4344-B1B1-1CCA2F8FDFB2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vaccinationer</name>
+			<description>Vaccinationer</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vaccinationer\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\immunizations_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40E68F09-3679-4F48-A13D-5E13AFB1FF86</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vaccinationer, för patient</name>
+			<description>Vaccinationer, för patient</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vaccinationer\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\immunizations_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>35AB29CD-071F-4191-810C-FD3CDA64C4B5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Implanterade enheter</name>
+			<description>Implanterade enheter</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Implanterade enheter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\implanteddevices_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>8FA34C2F-9666-454F-8F63-FEDB34F0A487</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Implanterade enheter, för patient</name>
+			<description>Implanterade enheter, för patient</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Implanterade enheter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\implanteddevicespatient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2CD2684-EC6D-4199-982D-490AC2F6AFCA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problem vid långtidsvård, för patient</name>
+			<description>Problem vid långtidsvård, för patient</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem – medicinska\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\ltcproblem_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>852772ED-0ACB-46DC-9013-39D0B7983066</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Provsvar v2, för patient</name>
+			<description>Provsvar v2, för patient</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Provsvar V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\labsv2patient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A0901198-34CD-4C8A-99A6-20BA621DE5DD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Provsvar v2, för patient med tidsfönster</name>
+			<description>Provsvar v2, för patient med tidsfönster</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Provsvar V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\labsv2patient_timewindow_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7D1FAF5-6E84-4E19-9EFF-6091FE9CD7DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Provsvar v2 för vårdpersonal</name>
+			<description>Provsvar v2 för vårdpersonal</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Provsvar V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\labsv2provider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F00A1650-AE55-4CC2-A86C-C8262A21A4A1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Senaste bedömning och plan</name>
+			<description>Senaste bedömning plan</description>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Senaste bedömning och plan\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\lastap_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>14F1A29A-C151-4B86-BAEE-FEB6FD2EB897</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedel</name>
+			<description>Ordinerade läkemedel</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedel\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\meds_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>381B1344-329A-4C22-8E0A-40F7D88D37AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedelsadministrering</name>
+			<description>Läkemedelsadministrering</description>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsadministrering\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsadmin_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>FEF918D9-FB43-45B0-81CA-F3819EA1ECE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedelsavstämning</name>
+			<description>Läkemedelsavstämning</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsavstämning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsrec_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B68EEB7D-FA90-41DC-A742-87E340AC0EB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedelsavstämning, för läkare</name>
+			<description>Läkemedelsavstämning, för läkare</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsavstämning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsrecphysician_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6DFE19F4-46EA-4C20-B6FC-789A3F4697EB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Visa nästa doskolumn för läkemedelsavstämning</name>
+			<description>Visa nästa doskolumn för läkemedelsavstämning</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsavstämning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsrec_nextdose_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B5D32EC1-7B0B-418B-83FB-64796A7ABECC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedelsavstämning, förenklad</name>
+			<description>Läkemedelsavstämning, förenklad</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsavstämning, förenklad\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsrecsimplified_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B8D4BC5E-F5DA-4B58-AD98-F47875B51EEA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedelsavstämning utan oförändrade läkemedel</name>
+			<description>Läkemedelsavstämning utan oförändrade läkemedel</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedelsavstämning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medsrec_withoutunchangedmeds_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1E5D745D-7DE0-4A32-ABB8-E6251B8AB2DF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedel med kategoriserad visning</name>
+			<description>Ordinerade läkemedel efter kategori</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedel\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medscategorized_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>38AAD525-7E2C-40B1-8699-8969449048AB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedel efter kategori, förskrivna och receptfria läkemedel</name>
+			<description>Ordinerade läkemedel efter kategori, förskrivna och receptfria läkemedel</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedel\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medscategorizedhome_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40929AB5-21C4-47AC-87BC-FA989CF1843E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Läkemedel efter kategori, slutenvård</name>
+			<description>Ordinerade läkemedel efter kategori, slutenvård</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Läkemedel\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\medscategorizedinpatient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF45DC00-8AAC-4688-96A8-1FC53F78FDDC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Transportsätt vid utskrivning</name>
+			<description>Transportsätt vid utskrivning</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Transportsätt vid utskrivning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EC665279-5D8B-4892-89DE-EC93E6B7BAE4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Resultat för patientnära test, för vårdpersonal</name>
+			<description>Resultat för patientnära test, för vårdpersonal</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Resultat för patientnära test\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\labsv2provider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>33FE04BC-AFA1-4283-8DDB-50164C677D96</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patientinformation</name>
+			<description>Patientinformation</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patientinformation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\pated_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F3707019-8923-4277-873D-978A44984AFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patientinformation för vårdpersonal</name>
+			<description>Patientinformation för vårdpersonal</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patientinformation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patedprovider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6C65333F-90F4-4D39-9943-D81B02F4157A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patientinstruktioner</name>
+			<description>Patientinstruktioner</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patientinstruktioner\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patientinstructions_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A85DDAD1-9681-4B4C-AFD2-6ADBC2728A82</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kroppsundersökning</name>
+			<description>Kroppsundersökning</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kroppsundersökning\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pe.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A49BBBFA-2A02-4D05-87A4-D5BF2836522C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Utskrivningsordinationer efter slutenvård</name>
+			<description>Utskrivningsordinationer efter slutenvård</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Utskrivningsordinationer efter slutenvård\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\dischargeorders_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50F97245-D3D2-4342-93CE-E930A423888A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem</name>
+			<description>Aktiva hälsoproblem</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem – alla\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\problem_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7FF0B003-8337-42A7-BABC-B90870B776A3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem – medicinska</name>
+			<description>Aktiva medicinska hälsoproblem</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem – medicinska\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\problem_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40FD47F5-E31A-4099-BA81-F5632CEA5A63</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem, för patient</name>
+			<description>Hälsoproblem, för patient</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem – medicinska\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\problempatient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>58AF2105-C023-4209-854B-79F0A787ECAC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälsoproblem, tabellayout</name>
+			<description>Hälsoproblem, tabellayout</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälsoproblem – alla\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\problemtable_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B0468FC7-4D09-4565-BD6E-4F3FC2CB2BBE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Åtgärder</name>
+			<description>Åtgärder</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Åtgärder\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\procedures_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A7FAFBA9-8F3D-4382-937C-B218A07DB03D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Åtgärder vid detta besök</name>
+			<description>Åtgärder vid detta besök</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Åtgärder vid detta besök\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\procedures_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DFADF443-E31D-4292-95AC-99D3CBF3D353</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälso- och sjukvårdstjänster</name>
+			<description>Hälso- och sjukvårdstjänster</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälso- och sjukvårdstjänster\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>845CE5C4-A451-415E-86F5-0E2661C607FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hälso- och sjukvårdstjänster, för patient</name>
+			<description>Hälso- och sjukvårdstjänster, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hälso- och sjukvårdstjänster\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CA345EB9-0373-495A-84DB-0E8E1E7C55CE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologi, för patient</name>
+			<description>Radiologiordinationer och -resultat, för patient</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\radspatient_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>94019434-B37C-45F1-AA53-F7848DE100D3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologi, för patient med tidsfönster</name>
+			<description>Radiologiordinationer och -resultat, för patient med tidsfönster</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\radspatient_timewindow_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03D9451A-07C9-495A-9124-338E0C9A5C32</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologi för vårdpersonal</name>
+			<description>Radiologiordinationer och -resultat, för vårdpersonal</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\radsprovider_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>607EB264-E5AA-4E18-9EBB-436AF1DAF0EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sammanfattning av vistelse</name>
+			<description>Sammanfattning av vistelse</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sammanfattning av vistelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B01B9680-496B-42B5-8CC5-DEFC428FA8E2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sammanfattning av vistelse, för patient</name>
+			<description>Sammanfattning av vistelse, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sammanfattning av vistelse\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>85BC85DC-ACD7-487C-A0FB-106279998F10</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Remisser</name>
+			<description>Remisser</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Remisser\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\orders_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>193FCACA-0177-42FF-A069-39FC07A3D9DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Kontroll av system</name>
+			<description>Kontroll av system</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Kontroll av system\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ros.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>41CF6777-D723-4474-83D5-3DC3B494F71A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Social historik</name>
+			<description>Social historik</description>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Social historik\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\socialhistory_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9ACD8023-2144-40FE-9C08-6FA2B52CF5EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Speciella tjänster och resurser på lokal nivå</name>
+			<description>Speciella tjänster och resurser på lokal nivå</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Speciella tjänster och resurser på lokal nivå\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50D93E46-20A6-4F60-91D0-5D5B0655605C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Speciella tjänster och resurser på lokal nivå, för patient</name>
+			<description>Speciella tjänster och resurser på lokal nivå, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Speciella tjänster och resurser på lokal nivå\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\patcaremeasurement_namevalue_ptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F530482C-4A2D-4A8E-B4A9-2E492561E4E0</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tagg – Taggade provsvar</name>
+			<description>Taggade provsvar</description>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Provsvar\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\sv\taggedlabs_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2AA0D748-E46A-4D4B-AD28-7E48CC6B3BB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tagg – Taggad text</name>
+			<description>Taggad text</description>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tagg – Taggad text\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\sv\taggedtext_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5D7E2B53-5802-4D24-9539-DA0235A5F36B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Taggade bilder</name>
+			<description>Taggade bilder</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Bilder\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\sv\taggedimages_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D50F51AB-BBF8-4422-8D5F-E2FC5D356CD2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testresultat</name>
+			<description>Slutförda labbtester</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Testresultat\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\testresults_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>908694B5-58E9-4567-806D-C0DE3C6A67AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Väntande test</name>
+			<description>Väntande test</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Väntande test\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\testspending_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D124E3D7-843A-4313-9C4B-B7E9F4C834EE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Väntande test, för patient med tidsfönster</name>
+			<description>Väntande labb- och radiologiresultat, för patient med tidsfönster</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Väntande test\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\testspending_timewindow_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E993C662-3E6C-4309-B446-88474BBC75B1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Utförda tester</name>
+			<description>Slutförda och väntande labb- och radiologitester</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Utförda tester\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\testsperformed_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>55695F0F-E66F-4B2B-AAE6-6DCD12751FE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden</name>
+			<description>Senaste vitalparametrar och mätvärden</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden, AKM\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasuremented_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9444551A-7801-4D57-A271-FD6C7BEB27B4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden, kardiologi</name>
+			<description>Vitalparametrar och mätvärden, kardiologi</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden, kardiologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasurementcardiology_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18384EB5-72DA-45C4-98C3-F40BDCD73DFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden, neurologi</name>
+			<description>Vitalparametrar och mätvärden, neurologi</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden, neurologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasurementneurology_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7A04A1C3-29DC-4386-B814-C9C49DFE05C2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden, för patient</name>
+			<description>Senaste vitalparametrar och mätvärden, för patient</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden, för patient\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasurementptfacing_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28734561-E0DB-4D1C-9424-17CB56078CEC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden, urologi</name>
+			<description>Vitalparametrar och mätvärden, urologi</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden, urologi\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7DDB6AB-CF05-4BA4-850B-724B904CE6A9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitalparametrar och mätvärden, senaste dygnet</name>
+			<description>Vitalparametrar och mätvärden inom 24 timmar</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitalparametrar och mätvärden\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\sv\vitalsmeasurement_sv.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>807F87CA-7318-455B-BC24-F1C6590A1F77</referenceuuid>
+		</emrcontent>
+	</emrcontents>
+	<referencetemplates>
+		<referencetemplate>
+			<name>Daganteckning (APSO)</name>
+			<description>Mall för daganteckning (APSO)</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\apsonote_amb_inpt_gastro_gensgy_gyn_ortho_pedi_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Inskrivningsanteckning</name>
+			<description>Mall för inskrivningsanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\admissionhp_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instruktioner för öppenvårdsbesök</name>
+			<description>Mall för instruktioner för öppenvårdsbesök</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\ambulatoryvisitinstructions_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Mall för bedömning och plan</name>
+			<description>Mall som används för avsnittet Bedömning och plan i MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\assessmentplan_sv.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Daganteckning (APSO), kardiologi</name>
+			<description>Mall för daganteckning (APSO), kardiologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\apsonote_cardiology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Besöksanteckning, kardiologi</name>
+			<description>Mall för besöksanteckning, kardiologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\officevisitnote_cardiology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Vårdplan</name>
+			<description>Omfattande vårdplan</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\careplan_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Klinisk sammanfattning</name>
+			<description>Mall för klinisk sammanfattning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\clinicalsummary_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Mall för urklipp</name>
+			<description>Mall som används för tagga och inkludera</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\clipboard_sv.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="clipboard" system_ind="true" label_type_mean="CLIPBOARD"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Konsultationsanteckning</name>
+			<description>Mall för konsultationsanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\consultnote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Epikris</name>
+			<description>Mall för epikris</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\dischargenote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Akutmottagningsanteckning</name>
+			<description>Mall för akutmottagningsanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\ednote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Fritextanteckning</name>
+			<description>Mall för fritextanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\freetextnote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Utskrivningsinstruktioner för slutenvård</name>
+			<description>Mall för utskrivningsinstruktioner för slutenvård</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\inpatientdischargeinstructions_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Daganteckning (APSO), neurologi</name>
+			<description>Mall för daganteckning (APSO), neurologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\apsonote_neurology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Besöksanteckning, neurologi</name>
+			<description>Mall för besöksanteckning, neurologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\officevisitnote_neurology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Besöksanteckning</name>
+			<description>Mall för besöksanteckning, öppenvårdsmottagning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\officevisitnote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Operationsanteckning</name>
+			<description>Mall för operationsanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\opnote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Klinisk sammanfattning efter slutenvård</name>
+			<description>Klinisk sammanfattning efter slutenvård</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\postacutecareclinicalsummary_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Utskrivningsinstruktioner efter slutenvård</name>
+			<description>Utskrivningsinstruktioner efter slutenvård</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\postacutecaredischargeinstructions_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Åtgärdsanteckning</name>
+			<description>Mall för åtgärdsanteckning</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\procedurenote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Daganteckning (SOAP)</name>
+			<description>Mall för daganteckning (SOAP)</description>
+			<file>\cernerbasiccontent\templates\standard templates\sv\progress-soapnote_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Daganteckning (APSO), urologi</name>
+			<description>Mall för daganteckning (APSO), urologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\apsonote_urology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Besöksanteckning, urologi</name>
+			<description>Mall för besöksanteckning, urologi</description>
+			<file>\cernerbasiccontent\templates\speciality templates\sv\officevisitnote_urology_sv.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+	</referencetemplates>
+</root>

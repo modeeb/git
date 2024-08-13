@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+    <filters>
+        <filter>
+            <name>Diagnosen</name>
+            <description>Diagnosen</description>
+            <file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Bewertung und Plan - Ambulant</name>
+            <description>Bewertung und Plan - Ambulant</description>
+            <file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Bewertung und Plan - Stationär</name>
+            <description>Bewertung und Plan - Stationär</description>
+            <file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+    </filters>
+    <formats>
+        <format>
+            <description>Bewertung und Plan - Allgemein (Logik)</description>
+            <file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bewertung und Plan - Stationär</description>
+            <file>\cernerbasiccontent\formats\de\inpatientaandp_de.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bewertung und Plan - Ambulant</description>
+            <file>\cernerbasiccontent\formats\de\outpatientaandp_de.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bewertung und Plan - Nur Diagnose/n</description>
+            <file>\cernerbasiccontent\formats\de\dxonlyaandp_de.xslt</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </format>
+    </formats>
+    <emrcontents>
+        <emrcontent>
+            <name>Bewertung und Plan - Stationär</name>
+            <description>Bewertung und Plan - Stationär</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Bewertung und Plan - Stationär\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\de\inpatientaandp_de.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Bewertung und Plan - Ambulant</name>
+            <description>Bewertung und Plan - Ambulant</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Bewertung und Plan - Ambulant\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\de\outpatientaandp_de.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Bewertung und Plan - Nur Diagnose/n</name>
+            <description>Bewertung und Plan - Nur Diagnose/n</description>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Diagnosen\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\de\dxonlyaandp_de.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+        </emrcontent>
+    </emrcontents>
+    <referencetemplates>
+        <referencetemplate>
+            <name>Stationär - Bewertung und Plan</name>
+            <description>Vorlage für den Abschnitt 'Bewertung und Plan - Stationär' in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\de\assessmentplaninpatient_de.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Ambulant - Bewertung und Plan</name>
+            <description>Vorlage für den Abschnitt 'Bewertung und Plan - Ambulant' in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\de\assessmentplanoutpatient_de.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Nur Diagnosen - Bewertung und Plan</name>
+            <description>Nur Diagnosen - Vorlage für den Abschnitt 'Bewertung und Plan' in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\de\assessmentplandxonly_de.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+    </referencetemplates>
+</root>

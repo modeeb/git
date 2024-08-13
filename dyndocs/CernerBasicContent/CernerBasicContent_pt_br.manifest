@@ -1,0 +1,3182 @@
+<?xml version="1.0"?>
+<root>
+	<filters>
+		<filter>
+			<name>Diretiva avançada</name>
+			<description>Diretiva avançada</description>
+			<file>\cernerbasiccontent\filters\advancedirectivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Alergias</name>
+			<description>Alergias ativas</description>
+			<file>\cernerbasiccontent\filters\allergyfilter.xml</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Avaliação e planejamento</name>
+			<description>Avaliação e planejamento</description>
+			<file>\cernerbasiccontent\filters\ipfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Problemas de saúde comportamental</name>
+			<description>Problemas de saúde comportamental</description>
+			<file>\cernerbasiccontent\filters\behavioralhealthissuesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Queixa principal</name>
+			<description>Queixa principal</description>
+			<file>\cernerbasiccontent\filters\chiefcomplaintfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Queixa principal e motivo da consulta</name>
+			<description>Queixa principal e motivo da consulta</description>
+			<file>\cernerbasiccontent\filters\cc_rfvfilter.xml</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Dispositivos e equipamentos</name>
+			<description>Dispositivos e equipamentos</description>
+			<file>\cernerbasiccontent\filters\devicesequipmentfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Diagnósticos</name>
+			<description>Diagnósticos</description>
+			<file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Data da alta médica</name>
+			<description>Data da alta médica</description>
+			<file>\cernerbasiccontent\filters\dischargedatefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Decisão de alta médica</name>
+			<description>Decisão de alta médica</description>
+			<file>\cernerbasiccontent\filters\dischargedispositionfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>DxOrders</name>
+			<description>Diagnósticos e Prescrições com associações</description>
+			<file>\cernerbasiccontent\filters\dxordersfilter.xml</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Episódio</name>
+			<description>Episódio</description>
+			<file>\cernerbasiccontent\filters\encounterfilter.xml</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Histórico familiar</name>
+			<description>Histórico familiar</description>
+			<file>\cernerbasiccontent\filters\familyhistory.xml</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Acompanhamento</name>
+			<description>Acompanhamento</description>
+			<file>\cernerbasiccontent\filters\followupfilter.xml</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Notas de rodapé</name>
+			<description>Notas de rodapé</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Cognitivo-funcional</name>
+			<description>Cognitivo-funcional</description>
+			<file>\cernerbasiccontent\filters\functionalcognitivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Próximas consultas</name>
+			<description>Próximas consultas</description>
+			<file>\cernerbasiccontent\filters\futureapptsfilter.xml</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Prescrições futuras</name>
+			<description>Prescrições futuras</description>
+			<file>\cernerbasiccontent\filters\futureordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Prescrições futuras - Visíveis pelo cliente</name>
+			<description>Prescrições futuras - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\filters\futureordersfilterptfacing.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Metas</name>
+			<description>Metas</description>
+			<file>\cernerbasiccontent\filters\goalsfilter.xml</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Preocupações médicas</name>
+			<description>Preocupações médicas</description>
+			<file>\cernerbasiccontent\filters\healthconcernsfilter.xml</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Status de saúde</name>
+			<description>Status de saúde</description>
+			<file>\cernerbasiccontent\filters\healthstatusfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Histórico da doença atual</name>
+			<description>Histórico da doença atual</description>
+			<file>\cernerbasiccontent\filters\hpifilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Tratamentos domiciliares</name>
+			<description>Tratamentos domiciliares</description>
+			<file>\cernerbasiccontent\filters\hometreatmentsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Curso da hospitalização</name>
+			<description>Curso da hospitalização</description>
+			<file>\cernerbasiccontent\filters\hospitalcoursefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Imagens</name>
+			<description>Imagens</description>
+			<file>\cernerbasiccontent\filters\taggedimagefilter.xml</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Imunização Esta consulta</name>
+			<description>Imunização Esta consulta</description>
+			<file>\cernerbasiccontent\filters\immunizationsthisvisit.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Imunizações</name>
+			<description>Imunizações</description>
+			<file>\cernerbasiccontent\filters\immunizationsv2filter.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Dispositivos implantados</name>
+			<description>Dispositivos implantados</description>
+			<file>\cernerbasiccontent\filters\implanteddevicesencounterlevelfilter.xml</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Laboratórios</name>
+			<description>Laboratórios</description>
+			<file>\cernerbasiccontent\filters\labsfilter.xml</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Laboratório V2</name>
+			<description>Laboratório V2</description>
+			<file>\cernerbasiccontent\filters\labsv2filter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Última AP</name>
+			<description>Última avaliação e planejamento</description>
+			<file>\cernerbasiccontent\filters\lastapfilter.xml</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Medicações</name>
+			<description>Medicações prescritas</description>
+			<file>\cernerbasiccontent\filters\medicationsfilter.xml</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Administração de medicamentos</name>
+			<description>Administração de medicamentos</description>
+			<file>\cernerbasiccontent\filters\medsadmin.xml</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Reconciliação de medicações</name>
+			<description>Reconciliação de medicações</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Reconciliação de medicações simplificada</name>
+			<description>Reconciliação de medicações simplificada</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Modo de transporte de alta médica</name>
+			<description>Modo de transporte de alta médica</description>
+			<file>\cernerbasiccontent\filters\modedischargetransportationfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>POCTestResults</name>
+			<description>POCTestResults</description>
+			<file>\cernerbasiccontent\filters\poctestresultsfilter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Orientações ao paciente</name>
+			<description>Orientações ao paciente</description>
+			<file>\cernerbasiccontent\filters\patedfilter.xml</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Instruções ao paciente</name>
+			<description>Instruções ao paciente</description>
+			<file>\cernerbasiccontent\filters\patientinstructionsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Exame físico</name>
+			<description>Exame físico</description>
+			<file>\cernerbasiccontent\filters\pefilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Prescrições de alta pós-tratamento intensivo</name>
+			<description>Prescrições de alta pós-tratamento intensivo</description>
+			<file>\cernerbasiccontent\filters\pacdischargeordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Problemas - Todos</name>
+			<description>Problemas ativos</description>
+			<file>\cernerbasiccontent\filters\problemfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Problemas - Médicos</name>
+			<description>Problemas médicos ativos</description>
+			<file>\cernerbasiccontent\filters\problemmedicalfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Procedimentos</name>
+			<description>Procedimentos</description>
+			<file>\cernerbasiccontent\filters\proceduresfilter.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Procedimentos desta consulta</name>
+			<description>Procedimentos desta consulta</description>
+			<file>\cernerbasiccontent\filters\proceduresfilterthisvisit.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Serviços especializados</name>
+			<description>Serviços especializados</description>
+			<file>\cernerbasiccontent\filters\proskillservicesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Radiologia</name>
+			<description>Prescrições e resultados de radiologia</description>
+			<file>\cernerbasiccontent\filters\radsfilter.xml</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Recapitulação da estadia domiciliar</name>
+			<description>Recapitulação da estadia domiciliar</description>
+			<file>\cernerbasiccontent\filters\recapitulationofstayfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Prescrições do encaminhamento</name>
+			<description>Prescrições do encaminhamento</description>
+			<file>\cernerbasiccontent\filters\referralordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Revisão de sistemas</name>
+			<description>Revisão de sistemas</description>
+			<file>\cernerbasiccontent\filters\rosfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Histórico social</name>
+			<description>Histórico social</description>
+			<file>\cernerbasiccontent\filters\socialhistoryfilter.xml</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Serviços especiais e recursos da comunidade</name>
+			<description>Serviços especiais e recursos da comunidade</description>
+			<file>\cernerbasiccontent\filters\specialservicescommunityresourcesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Marcação - Texto Marcado</name>
+			<description>Texto marcado na área de colagem</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Resultados de Exame</name>
+			<description>Testes laboratoriais concluídos e pendentes</description>
+			<file>\cernerbasiccontent\filters\testresultsfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Testes pendentes</name>
+			<description>Resultados de exames laboratoriais e radiológicos pendentes</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Testes realizados</name>
+			<description>Testes radiológicos e laboratoriais pendentes e concluídos</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e Medições</name>
+			<description>Sinais vitais e Medições</description>
+			<file>\cernerbasiccontent\filters\vitalsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e medições de cardiologia</name>
+			<description>Sinais vitais e medições de cardiologia</description>
+			<file>\cernerbasiccontent\filters\vitalscardiologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e Medições Emergência</name>
+			<description>Sinais vitais e Medições Emergência</description>
+			<file>\cernerbasiccontent\filters\vitalsedfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e medições de neurologia</name>
+			<description>Sinais vitais e medições de neurologia</description>
+			<file>\cernerbasiccontent\filters\vitalsneurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e medições - Visíveis pelo cliente</name>
+			<description>Sinais vitais e medições - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\filters\vitalsfilterptfacing.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sinais vitais e medições de urologia</name>
+			<description>Sinais vitais e medições de urologia</description>
+			<file>\cernerbasiccontent\filters\vitalsurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+	</filters>
+	<formats>
+		<format>
+			<description>Endereço</description>
+			<file>\cernerbasiccontent\formats\pt_br\addressfxn_pt_br.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Endereço (lógica)</description>
+			<file>\cernerbasiccontent\formats\addressfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Alergias</description>
+			<file>\cernerbasiccontent\formats\pt_br\allergy_pt_br.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Alergias (Lógica)</description>
+			<file>\cernerbasiccontent\formats\allergy.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Avaliação e planejamento</description>
+			<file>\cernerbasiccontent\formats\ip.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Equipe de atendimento</description>
+			<file>\cernerbasiccontent\formats\pt_br\careteam_pt_br.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Equipe de atendimento (lógica)</description>
+			<file>\cernerbasiccontent\formats\careteam.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Queixa principal e motivo da consulta</description>
+			<file>\cernerbasiccontent\formats\pt_br\ccrfv_pt_br.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Queixa principal e motivo da consulta (lógica)</description>
+			<file>\cernerbasiccontent\formats\ccrfv.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Comum (Lógica)</description>
+			<file>\cernerbasiccontent\formats\commonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Formato de data</description>
+			<file>\cernerbasiccontent\formats\pt_br\dateformat_pt_br.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dados demográficos Alias Local Registro PCP (Lógica)</description>
+			<file>\cernerbasiccontent\formats\demoaliaslocregproviders.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Profissionais de registro de local de alias demográfico</description>
+			<file>\cernerbasiccontent\formats\pt_br\demoaliaslocregproviders_pt_br.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dados demográficos Idioma Raça Etnia</description>
+			<file>\cernerbasiccontent\formats\pt_br\demolangraceethn_pt_br.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dados demográficos Idioma Raça Etnia (Lógica)</description>
+			<file>\cernerbasiccontent\formats\demolangraceethn.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dados demográficos Nome Contato Sexo DN</description>
+			<file>\cernerbasiccontent\formats\pt_br\demonamecontactgenderdob_pt_br.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Data de nascimento e gênero do nome dos dados pessoais (lógica)</description>
+			<file>\cernerbasiccontent\formats\demonamecontactgenderdob.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Data da consulta PRT DN do nome dos dados pessoais</description>
+			<file>\cernerbasiccontent\formats\pt_br\demographicsptfacing_pt_br.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Data da consulta PRT DN do nome dos dados pessoais (lógica)</description>
+			<file>\cernerbasiccontent\formats\demographicsptfacing.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Nome completo e dados do paciente</description>
+			<file>\cernerbasiccontent\formats\demoptnamefull.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnósticos</description>
+			<file>\cernerbasiccontent\formats\pt_br\diagnoses_pt_br.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnósticos (Lógica)</description>
+			<file>\cernerbasiccontent\formats\diagnoses.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnósticos comum (lógica)</description>
+			<file>\cernerbasiccontent\formats\dxcommonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnósticos - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\diagnosespatient_pt_br.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de diagnósticos (lógica)</description>
+			<file>\cernerbasiccontent\formats\diagnosestable.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Layout da tabela de diagnósticos</description>
+			<file>\cernerbasiccontent\formats\pt_br\diagnosestable_pt_br.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Prescrições de alta</description>
+			<file>\cernerbasiccontent\formats\pt_br\dischargeorders_pt_br.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Prescrições de alta (Lógica)</description>
+			<file>\cernerbasiccontent\formats\dischargeorders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>DxCodes</description>
+			<file>\cernerbasiccontent\formats\pt_br\dxcodes_pt_br.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>DxCodes (Lógica)</description>
+			<file>\cernerbasiccontent\formats\dxcodes.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>DxOrders</description>
+			<file>\cernerbasiccontent\formats\pt_br\dxorder_pt_br.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>DxOrders (Lógica)</description>
+			<file>\cernerbasiccontent\formats\dxorder.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Informações de prontuário eletrônico - Padrão</description>
+			<file>\cernerbasiccontent\formats\emrinfocommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Histórico familiar</description>
+			<file>\cernerbasiccontent\formats\pt_br\familyhistory_pt_br.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Histórico familiar (Lógica)</description>
+			<file>\cernerbasiccontent\formats\familyhistory.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento</description>
+			<file>\cernerbasiccontent\formats\pt_br\followup_pt_br.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento (Lógico)</description>
+			<file>\cernerbasiccontent\formats\followup.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento - Visível pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\followupptfacing_pt_br.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento - Visível pelo cliente (lógica)</description>
+			<file>\cernerbasiccontent\formats\followupptfacing.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento para profissionais de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\followupprovider_pt_br.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Acompanhamento para profissionais de saúde (Lógico)</description>
+			<file>\cernerbasiccontent\formats\followupprovider.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Notas de rodapé</description>
+			<file>\cernerbasiccontent\formats\pt_br\footnote_pt_br.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Notas de rodapé (Lógica)</description>
+			<file>\cernerbasiccontent\formats\footnote.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Cognitivo funcional visível para o paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\functionalcognitive_ptfacing_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Próximas consultas</description>
+			<file>\cernerbasiccontent\formats\pt_br\futureappts_pt_br.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Agendamentos futuros (lógica)</description>
+			<file>\cernerbasiccontent\formats\futureappts.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Agendamentos futuros - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\futureapptsptfacing_pt_br.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Agendamentos futuros - Visíveis pelo cliente (lógica)</description>
+			<file>\cernerbasiccontent\formats\futureapptsptfacing.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Metas</description>
+			<file>\cernerbasiccontent\formats\pt_br\goals_pt_br.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Metas (Lógica)</description>
+			<file>\cernerbasiccontent\formats\goals.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Lógica padrão de objetivos</description>
+			<file>\cernerbasiccontent\formats\goalscommon.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela de objetivo e resultado</description>
+			<file>\cernerbasiccontent\formats\pt_br\goalsoutcomestable_pt_br.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela de objetivo e resultado (lógica)</description>
+			<file>\cernerbasiccontent\formats\goalsoutcomestable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela somente para objetivos</description>
+			<file>\cernerbasiccontent\formats\pt_br\goalsgoalstable_pt_br.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela somente para objetivos (lógica)</description>
+			<file>\cernerbasiccontent\formats\goalsgoalstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela somente para intervenções</description>
+			<file>\cernerbasiccontent\formats\pt_br\goalsinterventionstable_pt_br.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Objetivos: Layout de tabela somente para intervenções (lógica)</description>
+			<file>\cernerbasiccontent\formats\goalsinterventionstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Preocupações médicas</description>
+			<file>\cernerbasiccontent\formats\pt_br\healthconcerns_pt_br.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Preocupações médicas (Lógica)</description>
+			<file>\cernerbasiccontent\formats\healthconcerns.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de questões de saúde (lógica)</description>
+			<file>\cernerbasiccontent\formats\healthconcernstable.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Layout de tabela de questões de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\healthconcernstable_pt_br.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de status de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\healthstatustable_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de status de saúde (lógica)</description>
+			<file>\cernerbasiccontent\formats\healthstatustable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Histórico da doença atual</description>
+			<file>\cernerbasiccontent\formats\hpi.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Curso da hospitalização</description>
+			<file>\cernerbasiccontent\formats\pt_br\hospitalcourse_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Curso do hospital (lógica)</description>
+			<file>\cernerbasiccontent\formats\hospitalcourse.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imagens</description>
+			<file>\cernerbasiccontent\formats\pt_br\images_pt_br.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imagens (Lógica)</description>
+			<file>\cernerbasiccontent\formats\images.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunização comum (lógica)</description>
+			<file>\cernerbasiccontent\formats\immunizationcommon.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunização Esta consulta</description>
+			<file>\cernerbasiccontent\formats\pt_br\immunizationsthisvisit_pt_br.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunização Esta consulta (lógica)</description>
+			<file>\cernerbasiccontent\formats\immunizationsthisvisit.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunização Esta consulta Visível pelo profissional de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\immunizationsthisvisitprovider_pt_br.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunizações</description>
+			<file>\cernerbasiccontent\formats\pt_br\immunizations_pt_br.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunizações (Lógica)</description>
+			<file>\cernerbasiccontent\formats\immunizations.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Imunizações - Visível para o paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\immunizations_ptfacing_pt_br.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dispositivos implantados</description>
+			<file>\cernerbasiccontent\formats\pt_br\implanteddevices_pt_br.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dispositivos implantados (Lógica)</description>
+			<file>\cernerbasiccontent\formats\implanteddevices.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Dispositivos implantados visíveis pelo paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\implanteddevicespatient_pt_br.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas de atendimento de longo prazo - Visível para o paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\ltcproblem_ptfacing_pt_br.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laboratório v2 (Lógica)</description>
+			<file>\cernerbasiccontent\formats\labsv2.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laboratórios v2 - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\labsv2patient_pt_br.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laboratórios v2 - Visíveis pelo cliente, com janela de tempo</description>
+			<file>\cernerbasiccontent\formats\pt_br\labsv2patient_timewindow_pt_br.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laboratórios v2 para profissionais de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\labsv2provider_pt_br.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Última Avaliação/planejamento</description>
+			<file>\cernerbasiccontent\formats\pt_br\lastap_pt_br.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Última Avaliação/planejamento (Lógica)</description>
+			<file>\cernerbasiccontent\formats\lastap.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações (Lógica)</description>
+			<file>\cernerbasiccontent\formats\meds.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Administração de medicamentos</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsadmin_pt_br.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Administração de medicamentos (Lógica)</description>
+			<file>\cernerbasiccontent\formats\medsadmin.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Administração de medicamentos comuns (lógica)</description>
+			<file>\cernerbasiccontent\formats\medsadmincommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações comuns (Lógica)</description>
+			<file>\cernerbasiccontent\formats\medscommon.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicações</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsrec_pt_br.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicações (lógica)</description>
+			<file>\cernerbasiccontent\formats\medsrec.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicamentos visível pelo médico</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsrecphysician_pt_br.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicamentos visível pelo médico (Lógico)</description>
+			<file>\cernerbasiccontent\formats\medsrecphysician.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação medicamentosa - Mostrar coluna da próxima dose</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsrec_nextdose_pt_br.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicações simplificada</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsrecsimplified_pt_br.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicações simplificada (lógica)</description>
+			<file>\cernerbasiccontent\formats\medsrecsimplified.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Reconciliação de medicações sem alteração de medicações</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsrec_withoutunchangedmeds_pt_br.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações com Exibição por categorias (Lógica)</description>
+			<file>\cernerbasiccontent\formats\medscategorized.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações domiciliares com exibição categorizadas</description>
+			<file>\cernerbasiccontent\formats\pt_br\medscategorizedhome_pt_br.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações domiciliares com exibição categorizadas (lógica)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedhome.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicamentos de pacientes internados com exibição categorizada</description>
+			<file>\cernerbasiccontent\formats\pt_br\medscategorizedinpatient_pt_br.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicamentos de pacientes internados com exibição categorizada (lógica)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedinpatient.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações</description>
+			<file>\cernerbasiccontent\formats\pt_br\meds_pt_br.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações i18n Comum</description>
+			<file>\cernerbasiccontent\formats\pt_br\medsi18ncommon_pt_br.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicações com exibição por categorias</description>
+			<file>\cernerbasiccontent\formats\pt_br\medscategorized_pt_br.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Modo de transporte de alta médica</description>
+			<file>\cernerbasiccontent\formats\pt_br\modeofdischargetransportation_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Modo de transporte de alta médica (lógica)</description>
+			<file>\cernerbasiccontent\formats\modeofdischargetransportation.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Prescrições</description>
+			<file>\cernerbasiccontent\formats\pt_br\orders_pt_br.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Prescrições (Lógica)</description>
+			<file>\cernerbasiccontent\formats\orders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatCareMeasurement</description>
+			<file>\cernerbasiccontent\formats\pt_br\patcaremeasurement_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatCareMeasurement (lógica)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatCareMeasurement comum (lógica)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela PatCareMeasurements</description>
+			<file>\cernerbasiccontent\formats\pt_br\patcaremeasurementstable_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de PatCareMeasurements (lógica)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementstable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Valor do nome de medição dos cuidados ao paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Valor do nome de medição dos cuidados ao paciente (Lógica)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement_namevalue.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Valor do nome de medição dos cuidados ao paciente - Visível para o paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orientações ao paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\pated_pt_br.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orientações ao paciente (Lógico)</description>
+			<file>\cernerbasiccontent\formats\pated.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orientações ao paciente para profissionais de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\patedprovider_pt_br.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orientações ao paciente para profissionais de saúde (Lógico)</description>
+			<file>\cernerbasiccontent\formats\patedprovider.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Instruções ao paciente</description>
+			<file>\cernerbasiccontent\formats\pt_br\patientinstructions_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Instruções (lógica)</description>
+			<file>\cernerbasiccontent\formats\patientinstructions.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Exame físico</description>
+			<file>\cernerbasiccontent\formats\pe.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas</description>
+			<file>\cernerbasiccontent\formats\pt_br\problem_pt_br.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas (Lógica)</description>
+			<file>\cernerbasiccontent\formats\problem.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas comuns (lógica)</description>
+			<file>\cernerbasiccontent\formats\problemcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\problempatient_pt_br.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemas - Visíveis pelo cliente (lógica)</description>
+			<file>\cernerbasiccontent\formats\problempatient.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela de problemas (lógica)</description>
+			<file>\cernerbasiccontent\formats\problemtable.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Layout de tabela de problemas</description>
+			<file>\cernerbasiccontent\formats\pt_br\problemtable_pt_br.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Procedimentos</description>
+			<file>\cernerbasiccontent\formats\pt_br\procedures_pt_br.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Procedimentos (Lógica)</description>
+			<file>\cernerbasiccontent\formats\procedures.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad (lógica)</description>
+			<file>\cernerbasiccontent\formats\rads.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad comum (lógica)</description>
+			<file>\cernerbasiccontent\formats\radscommon.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad - Visível pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\radspatient_pt_br.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad - Visível pelo cliente com janela de tempo</description>
+			<file>\cernerbasiccontent\formats\pt_br\radspatient_timewindow_pt_br.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad para profissionais de saúde</description>
+			<file>\cernerbasiccontent\formats\pt_br\radsprovider_pt_br.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad para profissionais de saúde (lógica)</description>
+			<file>\cernerbasiccontent\formats\radsprovider.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad i18n comum</description>
+			<file>\cernerbasiccontent\formats\pt_br\radsi18ncommon_pt_br.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Lógica de tabela reutilizável</description>
+			<file>\cernerbasiccontent\formats\tablecommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Revisão de sistemas</description>
+			<file>\cernerbasiccontent\formats\ros.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Histórico social</description>
+			<file>\cernerbasiccontent\formats\pt_br\socialhistory_pt_br.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Histórico social (Lógica)</description>
+			<file>\cernerbasiccontent\formats\socialhistory.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabela Medições comum (lógica)</description>
+			<file>\cernerbasiccontent\formats\tablemeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tag - Imagens com tag</description>
+			<file>\cernerbasiccontent\formats\tag\pt_br\taggedimages_pt_br.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tag - Imagens com tag (Lógica)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedimages.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Marcação - Laboratórios marcados</description>
+			<file>\cernerbasiccontent\formats\tag\pt_br\taggedlabs_pt_br.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Marcação - Laboratórios marcados (Lógica)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedlabs.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Marcação - Texto Marcado</description>
+			<file>\cernerbasiccontent\formats\tag\pt_br\taggedtext_pt_br.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Marcação - Texto marcado (Lógica)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedtext.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Resultados de Exame</description>
+			<file>\cernerbasiccontent\formats\pt_br\testresults_pt_br.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testes pendentes</description>
+			<file>\cernerbasiccontent\formats\pt_br\testspending_pt_br.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testes pendentes (lógica)</description>
+			<file>\cernerbasiccontent\formats\testspending.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testes pendentes - Visíveis pelo cliente, com janela de tempo</description>
+			<file>\cernerbasiccontent\formats\pt_br\testspending_timewindow_pt_br.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testes realizados</description>
+			<file>\cernerbasiccontent\formats\pt_br\testsperformed_pt_br.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testes realizados (lógica)</description>
+			<file>\cernerbasiccontent\formats\testsperformed.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurement_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições (Lógica)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições de cardiologia</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurementcardiology_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições de cardiologia (lógico)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcardiology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições Comum (Lógica)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcommon.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições Emergência</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasuremented_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições Emergência (Lógica)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasuremented.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições de neurologia</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurementneurology_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições de neurologia (lógico)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementneurology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurementptfacing_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e Medições i18n Comum</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurementi18ncommon_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sinais vitais e medições comuns - Visíveis pelo cliente</description>
+			<file>\cernerbasiccontent\formats\pt_br\vitalsmeasurementi18ncommonptfacing_pt_br.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+	</formats>
+	<emrcontents>
+		<emrcontent>
+			<name>Diretiva avançada</name>
+			<description>Diretiva avançada</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Advance Directive\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2001A4E5-8086-469C-8F15-7C3E62C9D70A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diretiva vançada visível para o paciente</name>
+			<description>Diretiva vançada visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Advance Directive\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BFD90E95-27DF-4AEE-989C-6A7AF37BC5FA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Alergias</name>
+			<description>Alergias ativas</description>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Alergias\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\allergy_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1446A201-FD91-4A82-B645-306DC948DC48</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Avaliação e planejamento</name>
+			<description>Avaliação e planejamento</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Avaliação e planejamento\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ip.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9EE022D1-07D8-4002-9E5B-6586B61DA9FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemas de saúde comportamental</name>
+			<description>Problemas de saúde comportamental</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Behavioral Health Issues\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F9651036-C2B3-42A0-B782-ED9699D9CF8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Equipe de atendimento</name>
+			<description>Equipe de atendimento</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\careteam_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF358768-D939-4AAC-A86E-89595ECAD163</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Queixa principal</name>
+			<description>Última queixa principal</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Queixa principal\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>ECF53099-D2D3-4DCC-B002-CCEED9C6A6BA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Queixa principal e motivo da consulta</name>
+			<description>Queixa principal e motivo da consulta</description>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Chief Complaint and Reason For Visit\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\ccrfv_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F2202DCE-7F67-4EFC-8887-151BD1E46A7D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Profissionais de registro de local de alias demográfico</name>
+			<description>Profissionais de registro de local de alias demográfico</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\demoaliaslocregproviders_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>165C11FB-7B7A-4AD6-91F6-D400F641D7FC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dados demográficos Idioma Raça Etnia</name>
+			<description>Dados demográficos Idioma Raça Etnia</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\demolangraceethn_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5991C999-F0C9-4A35-94E3-B003475B2371</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dados demográficos Nome Contato Sexo DN</name>
+			<description>Dados demográficos Nome Contato Sexo DN</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\demonamecontactgenderdob_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D688B080-37F0-49FB-86CB-D6E199601A27</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dados demográficos - Visíveis pelo cliente</name>
+			<description>Dados demográficos - Visíveis pelo cliente</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\demographicsptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51F22E71-926B-4A97-A270-F9AF7DC50F8A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Nome completo e dados do paciente</name>
+			<description>Nome completo e dados do paciente</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Encounter\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\demoptnamefull.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>48A18750-E486-48D4-BF32-4E8A4E214063</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dispositivos e equipamentos</name>
+			<description>Dispositivos e equipamentos</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Devices and Equipment\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2D36578-30E0-43BF-9D58-AB61AF836BB6</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dispositivos e equipamentos visíveis para o paciente</name>
+			<description>Dispositivos e equipamentos visíveis para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Devices and Equipment\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E107B1EE-7134-4CBF-8656-80795FC3E20D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnósticos</name>
+			<description>Lista de diagnósticos</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnósticos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\diagnoses_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>12AF70F8-5460-46C7-9EAE-D05387420034</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnósticos - Visíveis pelo cliente</name>
+			<description>Lista de diagnósticos - Visíveis pelo cliente</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnósticos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\diagnosespatient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BB4D7BEC-C046-481D-8311-65659D75ED8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Layout da tabela de diagnósticos</name>
+			<description>Layout da tabela de diagnósticos</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnósticos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\diagnosestable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D5F9A419-A2A3-44F0-AB30-CDCD9AC7330B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Data da alta médica</name>
+			<description>Data da alta médica</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Discharge Date\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>19570C91-55C6-4AA4-AAF5-67FC7A1BCF9D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Decisão de alta médica</name>
+			<description>Decisão de alta médica</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Discharge Disposition\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9AA511BE-577B-4C6D-B1F0-B9EAA60CA05C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Decisão de alta hospitalar - Visível para o paciente</name>
+			<description>Decisão de alta hospitalar - Visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Discharge Disposition\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CB1601D3-1C01-4902-B4F4-2AC7C419229F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>DxCodes</name>
+			<description>Códigos de diagnóstico</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>DxOrders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\dxcodes_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>452F3AB9-0E42-4109-B3AA-90C883275262</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>DxOrders</name>
+			<description>Diagnóstico Ativo com prescrições</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>DxOrders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\dxorder_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28ADF401-6012-454F-B8DF-CD5503253E54</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Histórico familiar</name>
+			<description>Histórico familiar</description>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Histórico familiar\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\familyhistory_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1F1618D1-D181-4E00-9B64-51F4895E7626</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Acompanhamento</name>
+			<description>Acompanhamento</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Acompanhamento\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\followup_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C9FF9E4D-285D-4C96-A248-104C01C3F326</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Acompanhamento - Visível pelo cliente</name>
+			<description>Acompanhamento</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Acompanhamento\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\followupptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>83F449B6-6106-46A4-8DD0-57D4ED4EB2AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Acompanhamento para profissionais de saúde</name>
+			<description>Acompanhamento para profissionais de saúde</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Acompanhamento\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\followupprovider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9DC024E8-603C-4A6A-83EA-8A96FE7EB9D2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Notas de rodapé</name>
+			<description>Notas de rodapé</description>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Notas de rodapé\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\footnote_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03B1CB1F-B571-4AA9-8115-8CDDD8F34A28</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Cognitivo-funcional</name>
+			<description>Cognitivo-funcional</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Functional Cognitive\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurementstable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>84AFDA05-19B5-4667-8C1F-DC721F1AE024</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Cognitivo funcional visível para o paciente</name>
+			<description>Cognitivo funcional visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Functional Cognitive\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\functionalcognitive_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D11AAB14-A6C3-48C4-A730-70B587B17EF2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Próximas consultas</name>
+			<description>Próximas consultas</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Future Appointments\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\futureappts_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18AF1EC5-77AB-4303-B720-E0006FBFA22F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Agendamentos futuros - Visíveis pelo cliente</name>
+			<description>Agendamentos futuros - Visíveis pelo cliente</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Future Appointments\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\futureapptsptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>877D911F-88C4-4F12-80FB-7C881ABC560A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Prescrições futuras - Visíveis pelo cliente</name>
+			<description>Prescrições futuras - Visíveis pelo cliente</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Prescrições futuras - Visíveis pelo cliente\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\orders_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1C84763A-A375-4218-9F40-D4BAE0800374</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Metas</name>
+			<description>Metas</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Goals\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\goals_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A15ABF2F-12E1-4022-AE82-8838D192B41B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Objetivos: Layout de tabela de objetivo e resultado</name>
+			<description>Objetivos: Layout de tabela de objetivo e resultado</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Goals\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\goalsoutcomestable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>0EFA20EA-CFE4-437F-BD91-EFEDEFBE90D5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Objetivos: Layout de tabela somente para objetivos</name>
+			<description>Objetivos: Layout de tabela somente para objetivos</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Goals\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\goalsgoalstable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50BF1B4C-909C-469A-8012-95544F1F9805</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Objetivos: Layout de tabela somente para intervenções</name>
+			<description>Objetivos: Layout de tabela somente para intervenções</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Goals\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\goalsinterventionstable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51BB8D8B-A6D0-4571-BA69-91A696AFE1F7</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Preocupações médicas</name>
+			<description>Preocupações médicas</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Health Concerns\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\healthconcerns_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EABE14DF-577E-4A05-918F-13135C5D4AFD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Layout de tabela de questões de saúde</name>
+			<description>Layout de tabela de questões de saúde</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Health Concerns\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\healthconcernstable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9036D5E8-138F-43C9-9DA2-0C7EDDB3DFEF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Status de saúde</name>
+			<description>Status de saúde</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Health Status\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\healthstatustable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>59E4A2D3-FE25-41B1-BC4A-11F6B5F357EC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Histórico da doença atual</name>
+			<description>Histórico da doença atual</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Histórico da doença atual\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\hpi.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50300668-B513-41B3-828B-0F6E57E9CA89</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tratamentos domiciliares</name>
+			<description>Tratamentos domiciliares</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Home Treatments\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>348244CD-47D5-49FD-978E-24EF64684E3F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tratamento domiciliar visível para o paciente</name>
+			<description>Tratamento domiciliar visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Home Treatments\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CAD4121E-E027-481D-BBD9-50D1B46F9493</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Curso da hospitalização</name>
+			<description>Curso da hospitalização</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Curso da hospitalização\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\hospitalcourse_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B03472B3-2161-40C7-9A3D-0CF7FF75115E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imagens</name>
+			<description>Imagens</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Images\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\images_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2D4D1119-2873-40E0-95AB-13A07C93662E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imunização Esta consulta</name>
+			<description>Imunização Esta consulta</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunization This Visit\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\immunizationsthisvisit_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>4C8BA0DA-6B38-4D47-B74E-A498CD916643</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imunização Esta consulta Visível pelo profissional de saúde</name>
+			<description>Imunização Esta consulta Visível pelo profissional de saúde</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunization This Visit\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\immunizationsthisvisitprovider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>101093D7-890B-4344-B1B1-1CCA2F8FDFB2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imunizações</name>
+			<description>Imunizações</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Imunizações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\immunizations_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40E68F09-3679-4F48-A13D-5E13AFB1FF86</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imunizações - Visível para o paciente</name>
+			<description>Imunizações - Visível para o paciente</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Imunizações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\immunizations_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>35AB29CD-071F-4191-810C-FD3CDA64C4B5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dispositivos implantados</name>
+			<description>Dispositivos implantados</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Implanted Devices\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\implanteddevices_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>8FA34C2F-9666-454F-8F63-FEDB34F0A487</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Dispositivos implantados visíveis pelo paciente</name>
+			<description>Dispositivos implantados visíveis pelo paciente</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Implanted Devices\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\implanteddevicespatient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2CD2684-EC6D-4199-982D-490AC2F6AFCA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemas de atendimento de longo prazo - Visível para o paciente</name>
+			<description>Problemas de atendimento de longo prazo - Visível para o paciente</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemas - Médicos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\ltcproblem_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>852772ED-0ACB-46DC-9013-39D0B7983066</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Laboratórios v2 - Visíveis pelo cliente</name>
+			<description>Laboratórios v2 - Visíveis pelo cliente</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Laboratório V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\labsv2patient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A0901198-34CD-4C8A-99A6-20BA621DE5DD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Laboratórios v2 - Visíveis pelo cliente, com janela de tempo</name>
+			<description>Laboratórios v2 - Visíveis pelo cliente, com janela de tempo</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Laboratório V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\labsv2patient_timewindow_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7D1FAF5-6E84-4E19-9EFF-6091FE9CD7DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Laboratórios v2 para profissionais de saúde</name>
+			<description>Laboratórios v2 para profissionais de saúde</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Laboratório V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\labsv2provider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F00A1650-AE55-4CC2-A86C-C8262A21A4A1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Última AP</name>
+			<description>Última Avaliação/planejamento</description>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Última AP\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\lastap_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>14F1A29A-C151-4B86-BAEE-FEB6FD2EB897</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicações</name>
+			<description>Medicações prescritas</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\meds_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>381B1344-329A-4C22-8E0A-40F7D88D37AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Administração de medicamentos</name>
+			<description>Administração de medicamentos</description>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Administração de medicamentos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsadmin_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>FEF918D9-FB43-45B0-81CA-F3819EA1ECE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Reconciliação de medicações</name>
+			<description>Reconciliação de medicações</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medications Reconciliation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsrec_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B68EEB7D-FA90-41DC-A742-87E340AC0EB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Reconciliação de medicamentos visível pelo médico</name>
+			<description>Reconciliação de medicamentos visível pelo médico</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medications Reconciliation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsrecphysician_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6DFE19F4-46EA-4C20-B6FC-789A3F4697EB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Reconciliação medicamentosa - Mostrar coluna da próxima dose</name>
+			<description>Reconciliação medicamentosa - Mostrar coluna da próxima dose</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medications Reconciliation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsrec_nextdose_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B5D32EC1-7B0B-418B-83FB-64796A7ABECC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Reconciliação de medicações simplificada</name>
+			<description>Reconciliação de medicações simplificada</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Reconciliação de medicações simplificada\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsrecsimplified_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B8D4BC5E-F5DA-4B58-AD98-F47875B51EEA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Reconciliação de medicações sem alteração de medicações</name>
+			<description>Reconciliação de medicações sem alteração de medicações</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medications Reconciliation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medsrec_withoutunchangedmeds_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1E5D745D-7DE0-4A32-ABB8-E6251B8AB2DF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicações com exibição por categorias</name>
+			<description>Medicações prescritas com exibição por categorias</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medscategorized_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>38AAD525-7E2C-40B1-8699-8969449048AB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicações domiciliares com exibição categorizadas</name>
+			<description>Medicações domiciliares prescritas com exibição categorizadas</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medscategorizedhome_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40929AB5-21C4-47AC-87BC-FA989CF1843E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicamentos de pacientes internados com exibição categorizada</name>
+			<description>Medicamentos prescritos para pacientes internados com exibição categorizada</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicações\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\medscategorizedinpatient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF45DC00-8AAC-4688-96A8-1FC53F78FDDC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Modo de transporte de alta médica</name>
+			<description>Modo de transporte de alta médica</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Mode of Discharge Transportation\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EC665279-5D8B-4892-89DE-EC93E6B7BAE4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>POCTestResultsProviderFacing</name>
+			<description>POCTestResultsProviderFacing</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>POCTestResults\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\labsv2provider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>33FE04BC-AFA1-4283-8DDB-50164C677D96</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Orientações ao paciente</name>
+			<description>Orientações ao paciente</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Orientações ao paciente\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\pated_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F3707019-8923-4277-873D-978A44984AFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Orientações ao paciente para profissionais de saúde</name>
+			<description>Orientações ao paciente para profissionais de saúde</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Orientações ao paciente\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patedprovider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6C65333F-90F4-4D39-9943-D81B02F4157A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Instruções ao paciente</name>
+			<description>Instruções ao paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patient Instructions\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patientinstructions_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A85DDAD1-9681-4B4C-AFD2-6ADBC2728A82</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Exame físico</name>
+			<description>Exame físico</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Exame físico\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pe.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A49BBBFA-2A02-4D05-87A4-D5BF2836522C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Prescrições de alta pós-tratamento intensivo</name>
+			<description>Prescrições de alta pós-tratamento intensivo</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Post Acute Care Discharge Orders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\dischargeorders_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50F97245-D3D2-4342-93CE-E930A423888A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemas</name>
+			<description>Problemas ativos</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemas - Todos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\problem_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7FF0B003-8337-42A7-BABC-B90870B776A3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemas - Médicos</name>
+			<description>Problemas médicos ativos</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemas - Médicos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\problem_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40FD47F5-E31A-4099-BA81-F5632CEA5A63</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemas - Visíveis pelo cliente</name>
+			<description>Problemas - Visíveis pelo cliente</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemas - Médicos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\problempatient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>58AF2105-C023-4209-854B-79F0A787ECAC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Layout de tabela de problemas</name>
+			<description>Layout de tabela de problemas</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemas - Todos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\problemtable_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B0468FC7-4D09-4565-BD6E-4F3FC2CB2BBE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Procedimentos</name>
+			<description>Procedimentos</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Procedimentos\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\procedures_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A7FAFBA9-8F3D-4382-937C-B218A07DB03D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Procedimentos desta consulta</name>
+			<description>Procedimentos desta consulta</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Procedimentos desta consulta\consultacernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\procedures_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DFADF443-E31D-4292-95AC-99D3CBF3D353</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Serviços especializados</name>
+			<description>Serviços especializados</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Professional Skill Services\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>845CE5C4-A451-415E-86F5-0E2661C607FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Serviços especializados - Visível para o paciente</name>
+			<description>Serviços especializados - Visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Professional Skill Services\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CA345EB9-0373-495A-84DB-0E8E1E7C55CE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologia - Visível pelo cliente</name>
+			<description>Resultados e prescrições de radiologia - Visíveis pelo cliente</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiology\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\radspatient_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>94019434-B37C-45F1-AA53-F7848DE100D3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologia - Visível pelo cliente com janela de tempo</name>
+			<description>Resultados e prescrições de radiologia - Visíveis pelo cliente, com janela de tempo</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiology\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\radspatient_timewindow_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03D9451A-07C9-495A-9124-338E0C9A5C32</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologia para profissionais de saúde</name>
+			<description>Prescrições e resultados de radiologia para profissionais de saúde</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiology\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\radsprovider_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>607EB264-E5AA-4E18-9EBB-436AF1DAF0EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Recapitulação da estadia domiciliar</name>
+			<description>Recapitulação da estadia domiciliar</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Recapitulation of Resident Stay\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B01B9680-496B-42B5-8CC5-DEFC428FA8E2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Recapitulação de estadia residencial visível para o paciente</name>
+			<description>Recapitulação de estadia residencial visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Recapitulation of Resident Stay\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>85BC85DC-ACD7-487C-A0FB-106279998F10</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Prescrições do encaminhamento</name>
+			<description>Prescrições do encaminhamento</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Prescrições do encaminhamento\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\orders_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>193FCACA-0177-42FF-A069-39FC07A3D9DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Revisão de sistemas</name>
+			<description>Revisão de sistemas</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Revisão de sistemas\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ros.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>41CF6777-D723-4474-83D5-3DC3B494F71A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Histórico social</name>
+			<description>Histórico social</description>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Histórico social\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\socialhistory_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9ACD8023-2144-40FE-9C08-6FA2B52CF5EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Serviços especiais e recursos da comunidade</name>
+			<description>Serviços especiais e recursos da comunidade</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Special Services and Community Resources\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50D93E46-20A6-4F60-91D0-5D5B0655605C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Recursos da comunidade de serviços especiais - Visível para o paciente</name>
+			<description>Serviço especial e recursos de comunidade - Visível para o paciente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Special Services and Community Resources\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\patcaremeasurement_namevalue_ptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F530482C-4A2D-4A8E-B4A9-2E492561E4E0</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Marcação - Laboratórios marcados</name>
+			<description>Laboratórios marcados</description>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Laboratórios\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\pt_br\taggedlabs_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2AA0D748-E46A-4D4B-AD28-7E48CC6B3BB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Marcação - Texto Marcado</name>
+			<description>Texto marcado</description>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Marcação - Texto Marcado\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\pt_br\taggedtext_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5D7E2B53-5802-4D24-9539-DA0235A5F36B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Imagens marcadas</name>
+			<description>Imagens marcadas</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Images\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\pt_br\taggedimages_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D50F51AB-BBF8-4422-8D5F-E2FC5D356CD2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Resultados de Exame</name>
+			<description>Testes laboratoriais concluídos</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Resultados de Exame\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\testresults_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>908694B5-58E9-4567-806D-C0DE3C6A67AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testes pendentes</name>
+			<description>Testes pendentes</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tests Pending\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\testspending_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D124E3D7-843A-4313-9C4B-B7E9F4C834EE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testes pendentes - Visíveis pelo cliente, com janela de tempo</name>
+			<description>Resultados de exames laboratoriais e radiológicos pendentes Visíveis pelo cliente, com janela de tempo</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tests Pending\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\testspending_timewindow_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E993C662-3E6C-4309-B446-88474BBC75B1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testes realizados</name>
+			<description>Testes radiológicos e laboratoriais pendentes e concluídos</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Testes realizados\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\testsperformed_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>55695F0F-E66F-4B2B-AAE6-6DCD12751FE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e Medições</name>
+			<description>Últimos sinais vitais e medições</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e Medições Emergência\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasuremented_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9444551A-7801-4D57-A271-FD6C7BEB27B4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e medições de cardiologia</name>
+			<description>Sinais vitais e medições de cardiologia</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e medições de cardiologia\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasurementcardiology_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18384EB5-72DA-45C4-98C3-F40BDCD73DFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e medições de neurologia</name>
+			<description>Sinais vitais e medições de neurologia</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e medições de neurologia\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasurementneurology_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7A04A1C3-29DC-4386-B814-C9C49DFE05C2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e medições - Visíveis pelo cliente</name>
+			<description>Sinais vitais e medições mais recentes - Visíveis pelo cliente</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e medições de neurologia\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasurementptfacing_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28734561-E0DB-4D1C-9424-17CB56078CEC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e medições de urologia</name>
+			<description>Sinais vitais e medições de urologia</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e medições de urologia\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7DDB6AB-CF05-4BA4-850B-724B904CE6A9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sinais vitais e medições das 24 horas passadas</name>
+			<description>Sinais vitais e medições em 24 horas</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sinais vitais e Medições\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pt_br\vitalsmeasurement_pt_br.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>807F87CA-7318-455B-BC24-F1C6590A1F77</referenceuuid>
+		</emrcontent>
+	</emrcontents>
+	<referencetemplates>
+		<referencetemplate>
+			<name>Nota de APSO</name>
+			<description>Modelo de nota de APSO</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\apsonote_amb_inpt_gastro_gensgy_gyn_ortho_pedi_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Histórico e exame físico de admissão</name>
+			<description>Histórico de internação e exame físico de admissão</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\admissionhp_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instruções de consulta ambulatorial</name>
+			<description>Modelo de instruções para consulta ambulatorial</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\ambulatoryvisitinstructions_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Modelo de avaliação e plano</name>
+			<description>Modelo usado para a seção de avaliação e plano nas MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\assessmentplan_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota de APSO de cardiologia</name>
+			<description>Modelo de nota de APSO de cardiologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\apsonote_cardiology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota da consulta de cardiologia</name>
+			<description>Modelo da nota da consulta de cardiologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\officevisitnote_cardiology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Plano de atendimento</name>
+			<description>Plano de cuidados abrangente</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\careplan_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Resumo clínico</name>
+			<description>Modelo de resumo clínico</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\clinicalsummary_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Modelo de área de transferência</name>
+			<description>Modelo usado para marcar e incluir</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\clipboard_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="clipboard" system_ind="true" label_type_mean="CLIPBOARD"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação de consulta</name>
+			<description>Modelo de anotação de consulta</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\consultnote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação de alta</name>
+			<description>Modelo de anotação de alta</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\dischargenote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação para Emergência</name>
+			<description>Modelo de anotação para emergência</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\ednote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação de texto livre</name>
+			<description>Modelo de anotação de texto livre</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\freetextnote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instruções de alta de internação</name>
+			<description>Modelo de instruções de alta para paciente internado</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\inpatientdischargeinstructions_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota APSO de neurologia</name>
+			<description>Modelo da nota de APSO de neurologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\apsonote_neurology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota da consulta de neurologia</name>
+			<description>Modelo da nota da consulta de neurologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\officevisitnote_neurology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota de visita ao consultório</name>
+			<description>Modelo de anotação de visita ao consultório por paciente ambulatorial</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\officevisitnote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação operativa</name>
+			<description>Modelo de anotação operativa</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\opnote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Resumo clínico pós-tratamento intensivo</name>
+			<description>Resumo clínico pós-tratamento intensivo</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\postacutecareclinicalsummary_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instruções de alta pós-tratamento intensivo</name>
+			<description>Instruções de alta pós-tratamento intensivo</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\postacutecaredischargeinstructions_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anotação de procedimento</name>
+			<description>Modelo de anotação de procedimento</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\procedurenote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Progresso/Observação SOAP</name>
+			<description>Progresso diário/Modelo de observação SOAP</description>
+			<file>\cernerbasiccontent\templates\standard templates\pt_br\progress-soapnote_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota de APSO de urologia</name>
+			<description>Modelo da nota de APSO de urologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\apsonote_urology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Nota da consulta de urologia</name>
+			<description>Modelo da nota da consulta de urologia</description>
+			<file>\cernerbasiccontent\templates\speciality templates\pt_br\officevisitnote_urology_pt_br.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+	</referencetemplates>
+</root>

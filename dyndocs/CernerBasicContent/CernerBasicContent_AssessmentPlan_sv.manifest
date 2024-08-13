@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+    <filters>
+        <filter>
+            <name>Diagnoser</name>
+            <description>Diagnoser</description>
+            <file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Bedömning och plan för öppenvård</name>
+            <description>Bedömning och plan för öppenvård</description>
+            <file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Bedömning och plan för slutenvård</name>
+            <description>Bedömning och plan för slutenvård</description>
+            <file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+    </filters>
+    <formats>
+        <format>
+            <description>Bedömning och plan, vanlig (logik)</description>
+            <file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bedömning och plan för slutenvård</description>
+            <file>\cernerbasiccontent\formats\sv\inpatientaandp_sv.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bedömning och plan för öppenvård</description>
+            <file>\cernerbasiccontent\formats\sv\outpatientaandp_sv.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Bedömning och plan, endast diagnos</description>
+            <file>\cernerbasiccontent\formats\sv\dxonlyaandp_sv.xslt</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </format>
+    </formats>
+    <emrcontents>
+        <emrcontent>
+            <name>Bedömning och plan för slutenvård</name>
+            <description>Bedömning och plan för slutenvård</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Bedömning och plan för slutenvård\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\sv\inpatientaandp_sv.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Bedömning och plan för öppenvård</name>
+            <description>Bedömning och plan för öppenvård</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Bedömning och plan för öppenvård\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\sv\outpatientaandp_sv.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Bedömning och plan, endast diagnos</name>
+            <description>Bedömning och plan, endast diagnos</description>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Diagnoser\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\sv\dxonlyaandp_sv.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+        </emrcontent>
+    </emrcontents>
+    <referencetemplates>
+        <referencetemplate>
+            <name>Slutenvård – Bedömning och plan</name>
+            <description>Slutenvårdsmall som används för avsnittet Bedömning och plan i MPage</description>
+            <file>\cernerbasiccontent\templates\standard templates\sv\assessmentplaninpatient_sv.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Öppenvård – Bedömning och plan</name>
+            <description>Öppenvårdsmall som används för avsnittet Bedömning och plan i MPage</description>
+            <file>\cernerbasiccontent\templates\standard templates\sv\assessmentplanoutpatient_sv.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Endast diagnos – Bedömning och plan</name>
+            <description>Mall för endast diagnoser som används i avsnittet Bedömning och plan i MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\sv\assessmentplandxonly_sv.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+    </referencetemplates>
+</root>

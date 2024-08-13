@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+	<filters>
+		<filter>
+			<name>Diagnostics</name>
+			<description>Diagnostics</description>
+			<file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patient externe – Évaluation et plan</name>
+			<description>Patient externe – Évaluation et plan</description>
+			<file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patient hospitalisé – Évaluation et plan</name>
+			<description>Patient hospitalisé – Évaluation et plan</description>
+			<file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+	</filters>
+	<formats>
+		<format>
+			<description>Évaluation et plan – Commun (Logique)</description>
+			<file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Évaluation et plan – Patient hospitalisé</description>
+			<file>\cernerbasiccontent\formats\fr\inpatientaandp_fr.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Évaluation et plan – Patient externe</description>
+			<file>\cernerbasiccontent\formats\fr\outpatientaandp_fr.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Évaluation et plan – Diagnostics uniquement</description>
+			<file>\cernerbasiccontent\formats\fr\dxonlyaandp_fr.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+	</formats>
+	<emrcontents>
+		<emrcontent>
+			<name>Évaluation et plan – Patient hospitalisé</name>
+			<description>Évaluation et plan – Patient hospitalisé</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patient hospitalisé – Évaluation et plan\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\fr\inpatientaandp_fr.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Évaluation et plan – Patient externe</name>
+			<description>Évaluation et plan – Patient externe</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patient externe – Évaluation et plan\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\fr\outpatientaandp_fr.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Évaluation et plan – Diagnostics uniquement</name>
+			<description>Évaluation et plan – Diagnostics uniquement</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnostics\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\fr\dxonlyaandp_fr.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+		</emrcontent>
+	</emrcontents>
+	<referencetemplates>
+		<referencetemplate>
+			<name>Patient hospitalisé – Évaluation et plan</name>
+			<description>Patient hospitalisé – Modèle utilisé pour la section Évaluation et plan dans MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\fr\assessmentplaninpatient_fr.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Patient externe – Évaluation et plan</name>
+			<description>Patient externe – Modèle utilisé pour la section Évaluation et plan dans MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\fr\assessmentplanoutpatient_fr.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Diagnostics uniquement – Évaluation et plan</name>
+			<description>Diagnostics uniquement – Modèle utilisé pour la section Évaluation et plan dans MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\fr\assessmentplandxonly_fr.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+	</referencetemplates>
+</root>

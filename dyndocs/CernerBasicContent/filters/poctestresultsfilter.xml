@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?dynamic-document type="filter" version="1.0"?>
+<dataextractfilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DataExtractFilter.xsd">
+	<labmeasurementfilter>
+		<eventsets>
+		<eventset><concept_cki>CERNER!307C403A-E1DC-4898-8EC5-886FFEA0D97C</concept_cki></eventset><!-- Activated Clotting Time POC -->
+		<eventset><concept_cki>CERNER!49F5FE51-BF41-46A1-9209-71240A67B0A4</concept_cki></eventset><!-- Aerobic Organisms Vaginal POC -->
+		<eventset><concept_cki>CERNER!F8ACE88E-6A84-48C7-8412-94DE463E233B</concept_cki></eventset><!-- Albumin/Creatinine Ratio POC -->
+		<eventset><concept_cki>CERNER!A465625F-CF00-428D-812A-7E7F3B056A27</concept_cki></eventset><!-- Alcohol, Saliva POC -->
+		<eventset><concept_cki>CERNER!FEB389BC-1288-4FC7-B959-83417BC8F15C</concept_cki></eventset><!-- Alk Phos POC -->
+		<eventset><concept_cki>CERNER!BD1DAC3F-4B76-4D0D-9730-3FA0DDCC01FE</concept_cki></eventset><!-- ALT POC -->
+		<eventset><concept_cki>CERNER!923A5709-E987-4DA2-99F2-349F54F5167D</concept_cki></eventset><!-- Amines Vaginal Swab POC -->
+		<eventset><concept_cki>CERNER!5777731F-A2F7-4EF0-80D6-52BD1BF71B0F</concept_cki></eventset><!-- Amphetamines Result POC -->
+		<eventset><concept_cki>CERNER!1BABB5FE-04BA-4F90-BF25-8A6961B990FE</concept_cki></eventset><!-- Amylase Level POC -->
+		<eventset><concept_cki>CERNER!CB3A9280-F907-4411-82A6-56A5E63ABAD9</concept_cki></eventset><!-- Anaerobic Organisms Vaginal POC -->
+		<eventset><concept_cki>CERNER!6A1420CC-EED0-43F6-8E03-0DA5B58E1A5B</concept_cki></eventset><!-- AST POC -->
+		<eventset><concept_cki>CERNER!2B214213-3A18-44B8-B777-DEBFDD4CA5C9</concept_cki></eventset><!-- Bacterial Culture POC -->
+		<eventset><concept_cki>CERNER!BF9205C6-D57D-4829-AC16-C1A02D319221</concept_cki></eventset><!-- Bacterial Sensitivity POC -->
+		<eventset><concept_cki>CERNER!C835D935-23E3-4389-9386-FE27413FEC29</concept_cki></eventset><!-- Barbiturates Result POC -->
+		<eventset><concept_cki>CERNER!47286CEA-9113-445C-8F90-8480E9F3FEFD</concept_cki></eventset><!-- Benzodiazepines Result POC -->
+		<eventset><concept_cki>CERNER!2DFF0384-4760-4EAA-97E2-4C7DA2A9CCC4</concept_cki></eventset><!-- Beta hCG Urine POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7IxgCqk/Mw</concept_cki></eventset><!-- Bilirubin Urine Dipstick -->
+		<eventset><concept_cki>CERNER!BE3C8B47-2347-44F7-96C4-6BE9D69DE920</concept_cki></eventset><!-- BladderChek POC -->
+		<eventset><concept_cki>CERNER!51B1DA89-07BF-40D8-ADA1-BEF67EA88EDB</concept_cki></eventset><!-- Blood Glucose Whole Blood POC -->
+		<eventset><concept_cki>CERNER!87C27F2F-89D7-4F17-A3B8-F6B8B12ED0A5</concept_cki></eventset><!-- Blood Lead Level Result POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7J0TCqk/Mw</concept_cki></eventset><!-- Blood Urine Dipstick -->
+		<eventset><concept_cki>CERNER!B77A113B-4FD2-4311-8B8C-237FAC96D9C2</concept_cki></eventset><!-- Calcium POC -->
+		<eventset><concept_cki>CERNER!2B14B297-4ACB-4789-B036-978FEFFA2E50</concept_cki></eventset><!-- Cannabinoids Result POC -->
+		<eventset><concept_cki>CERNER!72EEDBFD-E58A-4651-B1AC-D65A726EB0CD</concept_cki></eventset><!-- Cocaine Result POC -->
+		<eventset><concept_cki>CERNER!95AE2EB9-4034-4E77-A03B-C1CB8833BBA4</concept_cki></eventset><!-- Estradiol POC -->
+		<eventset><concept_cki>CERNER!DE158E4F-6320-4AAA-A098-778DB5BBE754</concept_cki></eventset><!-- Fern Test, Saliva POC -->
+		<eventset><concept_cki>CERNER!01AC8A6A-A05F-4F75-826F-99F15C165F16</concept_cki></eventset><!-- Follicle Stimulating Hormone POC -->
+		<eventset><concept_cki>CERNER!D8AEFC72-69CC-4A4D-B86E-97A4814EDEED</concept_cki></eventset><!-- Fungal Growth DTM POC -->
+		<eventset><concept_cki>CERNER!0C2BD04B-32AA-4CBD-82EE-5D5CB94FCF37</concept_cki></eventset><!-- Gamma Glutamyl-Transferase POC -->
+		<eventset><concept_cki>CERNER!E3B16A56-DE71-46E7-9059-31A55A1B5AA4</concept_cki></eventset><!-- Gastric Fluid pH POC -->
+		<eventset><concept_cki>CERNER!5B1EC8B5-2913-4B0B-BF32-41D4998AAF5D</concept_cki></eventset><!-- Gestational Glucose Screen POC -->
+		<eventset><concept_cki>CERNER!37BBC944-5577-4762-A93B-9BB80BE262FF</concept_cki></eventset><!-- Glucose, Capillary POC -->
+		<eventset><concept_cki>CERNER!3964FD91-50CE-4617-A8BA-C585F6C5D2DA</concept_cki></eventset><!-- hCG Ql POC -->
+		<eventset><concept_cki>CERNER!37BBC944-5577-4762-A93B-9BB80BE262FF</concept_cki></eventset><!-- HDL Cholesterol POC -->
+		<eventset><concept_cki>CERNER!8DC1CC43-707E-44C3-BB18-E01931ECE462</concept_cki></eventset><!-- Hearing Screen POC -->
+		<eventset><concept_cki>CERNER!5A649179-DDA5-4698-9A59-3BFCF2F418B2</concept_cki></eventset><!-- Helicobacter Pylori Antibodies POC -->
+		<eventset><concept_cki>CERNER!D5030339-2A67-4CDA-A775-22FAA0839C26</concept_cki></eventset><!-- Helicobacter Pylori POC -->
+		<eventset><concept_cki>CERNER!FA10CBED-5ABC-4876-A68E-49862DA116A7</concept_cki></eventset><!-- Hematocrit POC -->
+		<eventset><concept_cki>CERNER!FB5403CF-E232-40C3-81BA-BD5791573D3A</concept_cki></eventset><!-- Hgb A1c POC -->
+		<eventset><concept_cki>CERNER!4CD361CD-CF30-4565-A81F-D814B9990350</concept_cki></eventset><!-- HIV Antibodies POC -->
+		<eventset><concept_cki>CERNER!4F53CC7F-A1B0-4CB3-87CF-C3171D7E962D</concept_cki></eventset><!-- INR Level POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7JciCqk/Mw</concept_cki></eventset><!-- Ketones Urine Dipstick -->
+		<eventset><concept_cki>CERNER!8A1DD1FE-589E-451A-AB74-E693598511FF</concept_cki></eventset><!-- Ketones, Urine POC -->
+		<eventset><concept_cki>CERNER!0F270B31-1514-413F-899B-485833B20E76</concept_cki></eventset><!-- KOH POC -->
+		<eventset><concept_cki>CERNER!71A783DE-E439-4A9A-AAC6-BC42952AD34F</concept_cki></eventset><!-- Lactic Acid POC -->
+		<eventset><concept_cki>CERNER!A3739ADA-D87B-4D51-A722-BDE1FF0F4C88</concept_cki></eventset><!-- LDL Cholesterol POC -->
+		<eventset><concept_cki>CERNER!69F033AA-4B85-4C97-9496-00F3EAD83051</concept_cki></eventset><!-- Left Ear 1000 Hz -->
+		<eventset><concept_cki>CERNER!F01F14BA-5E68-41A1-A774-3351BCD5BF7B</concept_cki></eventset><!-- Left Ear 2000 Hz -->
+		<eventset><concept_cki>CERNER!260CDC2E-494F-439E-B953-FA7C7933E9F7</concept_cki></eventset><!-- Left Ear 3000 Hz -->
+		<eventset><concept_cki>CERNER!69A6D73A-16DF-4726-B619-BBFD5CBADC90</concept_cki></eventset><!-- Left Ear 4000 Hz -->
+		<eventset><concept_cki>CERNER!339585FB-B729-447C-8C64-2C4F7FAC169F</concept_cki></eventset><!-- Left Ear 500 Hz -->
+		<eventset><concept_cki>CERNER!1786B90D-4CA2-4393-8AB9-C5E4DFEBF81C</concept_cki></eventset><!-- Left Ear 6000 Hz -->
+		<eventset><concept_cki>CERNER!366C6AA3-8B56-475B-9113-24E2F6A2F36C</concept_cki></eventset><!-- Left Ear 8000 Hz -->
+		<eventset><concept_cki>CERNER!D5CB4A4E-462A-42AE-9C52-DD8FD08F4671</concept_cki></eventset><!-- Lithium Level Result POC -->
+		<eventset><concept_cki>CERNER!0DA7089C-E553-43BC-A5A6-F858B93C30FD</concept_cki></eventset><!-- Luteinizing Hormone POC -->
+		<eventset><concept_cki>CERNER!EFD4BA79-4BE3-4A0C-8A1E-43A0DBAEA91F</concept_cki></eventset><!-- Lyme Disease Antibodies POC -->
+		<eventset><concept_cki>CERNER!D90FF1BC-E0CE-407B-B03F-C3E3F4D03656</concept_cki></eventset><!-- MDMA Result POC -->
+		<eventset><concept_cki>CERNER!55B35F3C-66C5-4C81-8E55-56D74D51AF38</concept_cki></eventset><!-- Methadone Result POC -->
+		<eventset><concept_cki>CERNER!31B4B723-2E7A-49B2-9E6E-1CA1C6CC9279</concept_cki></eventset><!-- Methamphetamines Result POC -->
+		<eventset><concept_cki>CERNER!F6710D4D-73FA-426C-83E8-3016278E6395</concept_cki></eventset><!-- Mononucleosis Test POC -->
+		<eventset><concept_cki>CERNER!57C36C11-383F-40C7-BC68-15352D0A6687</concept_cki></eventset><!-- Multinucleated Giant Cells POC -->
+		<eventset><concept_cki>CERNER!4F693B72-11C9-4B97-B3C6-FEC974E29DD8</concept_cki></eventset><!-- Natriuretic Peptide B POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7JtsCqk/Mw</concept_cki></eventset><!-- Nitrite Urine Dipstick -->
+		<eventset><concept_cki>CERNER!3F7BF624-FB0E-431C-B89D-FF24212CE4BF</concept_cki></eventset><!-- Non-HDL POC -->
+		<eventset><concept_cki>CERNER!24144996-4ED0-4D73-8FA3-06C4031FBA0A</concept_cki></eventset><!-- Occult Blood Stool POC -->
+		<eventset><concept_cki>CERNER!AD43515A-1E4E-4125-BED6-3651054E7B0A</concept_cki></eventset><!-- Opiates Result POC -->
+		<eventset><concept_cki>CERNER!CB711A85-D627-442C-941E-CCFD38B55044</concept_cki></eventset><!-- Oxycodone Result POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7KDoCqk/Mw</concept_cki></eventset><!-- pH Urine Dipstick -->
+		<eventset><concept_cki>CERNER!AFD2F961-0C9D-4323-A677-9F4EB5C8A9D5</concept_cki></eventset><!-- pH Vaginal Swab POC -->
+		<eventset><concept_cki>CERNER!641CA0A3-8466-445A-A095-E8422531B711</concept_cki></eventset><!-- Phencyclidine (PCP) Result POC -->
+		<eventset><concept_cki>CERNER!CDFA0B9E-B82B-4A73-A1B6-21263CC10138</concept_cki></eventset><!-- Progesterone POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7KK8Cqk/Mw</concept_cki></eventset><!-- Protein Urine Dipstick -->
+		<eventset><concept_cki>CERNER!34DA2BC2-5347-49BE-952F-D5905F6CA501</concept_cki></eventset><!-- Rapid Bacterial Vaginosis POC -->
+		<eventset><concept_cki>CERNER!E48B4EAF-B0EB-4CFC-BFBF-6A5E7AB22526</concept_cki></eventset><!-- Rapid Trichomonas POC -->
+		<eventset><concept_cki>CERNER!0E7AC03F-4253-432C-B980-DD3BA8FA5DDA</concept_cki></eventset><!-- Right Ear 1000 Hz -->
+		<eventset><concept_cki>CERNER!0ADE6CDD-BD19-4EE0-9D06-7485D41278D7</concept_cki></eventset><!-- Right Ear 2000 Hz -->
+		<eventset><concept_cki>CERNER!05AC777C-0F4F-470D-9628-01D975021412</concept_cki></eventset><!-- Right Ear 3000 Hz -->
+		<eventset><concept_cki>CERNER!54DD9376-1B9D-4E8A-B616-99D149150FDE</concept_cki></eventset><!-- Right Ear 4000 Hz -->
+		<eventset><concept_cki>CERNER!65D48550-1B61-4AC8-A4B0-5F8AC0FB11BF</concept_cki></eventset><!-- Right Ear 500 Hz -->
+		<eventset><concept_cki>CERNER!E8708FE3-3149-480F-98A3-EBCD3A88BD10</concept_cki></eventset><!-- Right Ear 6000 Hz -->
+		<eventset><concept_cki>CERNER!34AAE527-146F-479E-A1C8-844879333B0D</concept_cki></eventset><!-- Right Ear 8000 Hz -->
+		<eventset><concept_cki>CERNER!BD025C4A-4A48-46BC-99ED-D814F1662489</concept_cki></eventset><!-- RSV POC -->
+		<eventset><concept_cki>CERNER!991EC289-301F-4DD5-9D42-754A8788BD3B</concept_cki></eventset><!-- Scabies Eggs POC -->
+		<eventset><concept_cki>CERNER!63DA4ECA-4EF5-4112-BC9E-0366BC912D92</concept_cki></eventset><!-- Scabies Feces POC -->
+		<eventset><concept_cki>CERNER!B36FF295-F6C7-4741-A54C-2E460F298CA1</concept_cki></eventset><!-- Scabies Location POC -->
+		<eventset><concept_cki>CERNER!F76B4BBA-4D0C-4E7C-BEFA-5136046C1ACF</concept_cki></eventset><!-- Scabies Organisms POC -->
+		<eventset><concept_cki>CERNER!ED132A7F-D10C-404B-A893-5FC3E78BF396</concept_cki></eventset><!-- Serum Ketones Quantitative POC -->
+		<eventset><concept_cki>CERNER!DA0D367D-E31F-4500-9100-BE98E978FE8D</concept_cki></eventset><!-- Throat Culture POC -->
+		<eventset><concept_cki>CERNER!BE6B8EF2-2701-4247-BD4A-05158282E6FB</concept_cki></eventset><!-- Total Cholesterol POC -->
+		<eventset><concept_cki>CERNER!1E845069-E842-4B3C-94C7-431AE7AAD314</concept_cki></eventset><!-- Total Cholesterol to HDL Ratio POC -->
+		<eventset><concept_cki>CERNER!C15C3610-F586-4BAD-89FD-E24FCD00A57F</concept_cki></eventset><!-- Total Protein, Serum POC -->
+		<eventset><concept_cki>CERNER!303F976E-2B38-43E2-9D8B-A49ACD2A7179</concept_cki></eventset><!-- Transcutaneous Bilirubin POC -->
+		<eventset><concept_cki>CERNER!A2D8FF1C-0EA6-4330-B8CD-BEB4ACB9DE2C</concept_cki></eventset><!-- Tricyclic Antidepressants Result POC -->
+		<eventset><concept_cki>CERNER!113D4411-8259-454A-89EF-93E910E14561</concept_cki></eventset><!-- Triglyceride POC -->
+		<eventset><concept_cki>CERNER!C09D783F-FC6D-429B-9B85-3A6AE06231D2</concept_cki></eventset><!-- TSH POC -->
+		<eventset><concept_cki>CERNER!740E8E33-3FDD-4ADC-8EAA-7AD9D54C2D5E</concept_cki></eventset><!-- Uric Acid POC -->
+		<eventset><concept_cki>CERNER!0F40E2F6-B763-4A99-8827-01B514A788BD</concept_cki></eventset><!-- Urine Albumin POC -->
+		<eventset><concept_cki>CERNER!5D277BF6-EBDE-4DA4-B69C-766A26D58F23</concept_cki></eventset><!-- Urine Appearance Urine Dipstick -->
+		<eventset><concept_cki>CERNER!36394269-8EF3-4632-B5EC-3B57F1257D5F</concept_cki></eventset><!-- Urine Bacteria POC -->
+		<eventset><concept_cki>CERNER!9B6CF91B-3DB5-4419-9418-3781C3F221F8</concept_cki></eventset><!-- Urine Casts POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7KkiCqk/Mw</concept_cki></eventset><!-- Urine Color Urine Dipstick -->
+		<eventset><concept_cki>CERNER!26B3ADE5-C0E2-4480-A031-8D8BE8FC9224</concept_cki></eventset><!-- Urine Creatinine POC -->
+		<eventset><concept_cki>CERNER!8CF2D845-8C6B-43BB-BA68-74BA7F699F1C</concept_cki></eventset><!-- Urine Crystals POC -->
+		<eventset><concept_cki>CERNER!3D02B8A0-805C-4B96-B260-0222068A0971</concept_cki></eventset><!-- Urine Culture Result POC -->
+		<eventset><concept_cki>CERNER!26B367EF-30DE-4C57-A315-2B31CDC3833C</concept_cki></eventset><!-- Urine Dipstick and Microscopy POC -->
+		<eventset><concept_cki>CERNER!E080CC4C-614B-4CEC-BA83-39377B8B307A</concept_cki></eventset><!-- Urine Epithelial Cells POC -->
+		<eventset><concept_cki>CERNER!9EA6D344-45DE-4D81-8FC2-C8ECBAE92FBE</concept_cki></eventset><!-- Urine Microalbumin/Cr Ratio POC -->
+		<eventset><concept_cki>CERNER!E161BFEC-F7A0-48A3-9F13-86E80A5EAB56</concept_cki></eventset><!-- Urine Yeast POC -->
+		<eventset><concept_cki>CERNER!AeXiwwEJc7Lb7KrJCqk/Mw</concept_cki></eventset><!-- Urobilinogen Urine Dipstick -->
+		<eventset><concept_cki>CERNER!20AD713A-222A-4470-AF7C-826BF5CCDEC4</concept_cki></eventset><!-- Vaginal Wet Mount Bacteria POC -->
+		<eventset><concept_cki>CERNER!12B71410-A2B1-4582-A82C-2ABEF51CE3C5</concept_cki></eventset><!-- Vaginal Wet Mount Clue Cells POC -->
+		<eventset><concept_cki>CERNER!9A35B14F-31B1-4A56-B710-4C432A0C82AA</concept_cki></eventset><!-- Vaginal Wet Mount Trichomonas POC -->
+		<eventset><concept_cki>CERNER!D324BD30-4AC2-4CCB-903B-2AA8E7303846</concept_cki></eventset><!-- Vaginal Wet Mount White Blood Cells POC -->
+		<eventset><concept_cki>CERNER!E2F5DF55-AA5D-4FCF-831D-3BF05BB3D37B</concept_cki></eventset><!-- Vaginal Wet Mount Yeast POC -->
+		</eventsets>
+	</labmeasurementfilter>
+</dataextractfilter>
+
+
+
+
+
+

@@ -1,0 +1,388 @@
+<xsd:schema xmlns="urn:com-cerner-patient-ehr:v3" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            targetNamespace="urn:com-cerner-patient-ehr:v3" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4" jaxb:version="2.0"
+            xmlns:annox="http://annox.dev.java.net"
+            jaxb:extensionBindingPrefixes="annox">
+    <xsd:include schemaLocation="../common/date-time/date-time.xsd" />
+    <xsd:include schemaLocation="../common/date-time/fuzzy-date.xsd" />
+    <xsd:include schemaLocation="../global/person/person-type.xsd" />
+    <xsd:include schemaLocation="../common/comment.xsd" />
+    <xsd:element name="goal-data">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="goal" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="goal">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="goalType">
+                    <xsd:sequence>
+                        <xsd:element ref="intervention" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    Actions that are being taken in order to achieve the goal. (Example: Educate about diabetes related complications)
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="barrier-nomenclature-id" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    Items that could prevent the goal from being achieved. (Example: Medication pending, home environment etc.)
+                                    For Millennium: Barrier entries are written out with a outcome_activity_detail_type_cd of OC_BARRIER from Codeset 4003308.
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="associated-activity-id" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    Association to activities being taken in order to achieve the goal. Will be empty unless activity associations
+                                    are requested for the goal content type.
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="owner" type="personType" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">The list of the goal owners.</xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="expressed-by" type="personType" minOccurs="0">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">The Person that expressed the need for creating the goal.</xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="parent-goal-id" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    Associated parent (long term) goal identifiers.
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="child-goal-id" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    Associated child (short term) goal identifiers.
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="progress" type="xsd:string" minOccurs="0">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">
+                                    The current progress of the goal (PROGRESSING, REGRESSING, AT_TARGET, ACHIEVED, NOT_ACHIEVED) as a codified value.
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="target" type="targetType" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">Measures for goal and activity completion, compliance, and progress</xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="goalType">
+        <xsd:sequence>
+            <xsd:element name="start-date-time" type="fuzzyDateType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The date that the goal will be in an "In Progress" status.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="start-dt-tm" type="dateTimeType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The date that the goal will be in an "In Progress" status. Deprecated as of 2.2, use start-date-time instead..</xsd:documentation>
+                    <xsd:appinfo>
+                        <annox:annotate target="getter">@java.lang.Deprecated</annox:annotate>
+                        <annox:annotate target="setter">@java.lang.Deprecated</annox:annotate>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="end-dt-tm" type="dateTimeType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The date that the goal should be in a Met status. Deprecated as of 2.2, use end-date-time instead..</xsd:documentation>
+                    <xsd:appinfo>
+                        <annox:annotate target="getter">@java.lang.Deprecated</annox:annotate>
+                        <annox:annotate target="setter">@java.lang.Deprecated</annox:annotate>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="end-date-time" type="fuzzyDateType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The date that the goal should be in a Met status.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="update-dt-tm" type="dateTimeType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The date and time that the goal was last updated.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="comment" type="commentType" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The comment associated with the goal. Only one is allowed per goal.Deprecated as of 2.2, use commentV2 list element.</xsd:documentation>
+                    <xsd:appinfo>
+                        <annox:annotate target="getter">@java.lang.Deprecated</annox:annotate>
+                        <annox:annotate target="setter">@java.lang.Deprecated</annox:annotate>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="commentV2" type="commentV2Type" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The comment associated with the goal.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="category-code" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The category of the goal. Codeset 4003016.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="type-code" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The source who created the goal. Codeset 4003013.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="action" type="outcomeActionType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="created-by" type="personType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The person who created the goal.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="created-for" type="personType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The Person who this goal is created for.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="updated-by" type="personType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The person who last updated the goal.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="description" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The description of the goal, or the outcome that the patient wants to reach.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="id" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The identifier for outcome_activity_id from OUTCOME_ACTIVITY.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="status-nomenclature-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The goal status nomenclature id.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="status-nomenclature-display" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The preferred goal status nomenclature display.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="outcome-activity-type-code" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The outcome_activity type code. Codeset 30320.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="creator-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The person who created the goal. Deprecated as of 3.0. Use created-by instead.</xsd:documentation>
+                <xsd:appinfo>
+                    <annox:annotate target="getter">@java.lang.Deprecated</annox:annotate>
+                    <annox:annotate target="setter">@java.lang.Deprecated</annox:annotate>
+                </xsd:appinfo>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="update-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">Deprecated as of 3.0. Use updated-by instead.</xsd:documentation>
+                <xsd:appinfo>
+                    <annox:annotate target="getter">@java.lang.Deprecated</annox:annotate>
+                    <annox:annotate target="setter">@java.lang.Deprecated</annox:annotate>
+                </xsd:appinfo>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="priority" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The priority of the goal.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="version-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The version of the goal</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="reference-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The identifier of the reference catalog.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="reference-name" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The name of the reference catalog.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="encounter-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The encounter associated with the goal.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="expectation" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    The expected value for the goal. The actual value would be something like "Goal Met" as the expectation.
+                    This is stored in the Outcome_Activity table in EXPECTATION column.
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="is-met" type="xsd:boolean">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">Indicates whether this goal/intervention is met or not.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+    <xsd:element name="intervention">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="goalType">
+                    <xsd:attribute name="frequency-code" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation xml:lang="en">Description about how often the intervention is being done. Examples may include "Daily", "Every other day". Codeset 4003.</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="target-duration" type="xsd:int">
+                        <xsd:annotation>
+                            <xsd:documentation xml:lang="en">The duration of the intervention.</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="target-duration-unit-code" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation xml:lang="en">The unit code for the duration of the intervention.</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="confidence-level" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation xml:lang="en">The display value of the confidence level of the patient to get the intervention in a Met Status. Example may include "confidence level 3".</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="outcomeActionType">
+        <xsd:sequence>
+            <xsd:element name="action-dt-tm" type="dateTimeType" minOccurs="0" />
+            <xsd:element name="start-dt-tm" type="dateTimeType" minOccurs="0" />
+            <xsd:element name="end-dt-tm" type="dateTimeType" minOccurs="0" />
+            <xsd:element name="update-dt-tm" type="dateTimeType" minOccurs="0" />
+            <xsd:element name="status-dt-tm" type="dateTimeType" minOccurs="0" />
+        </xsd:sequence>
+        <xsd:attribute name="sequence" type="xsd:string" />
+        <xsd:attribute name="status-code" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The outcome action status code. Codeset 30182</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="target-type-code" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The target type code. Codeset 30180</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="update-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    The update personnel id. This is the person_id of the person from the personnel table (prsnl)
+                    that caused the last insert or update of the row in the table
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="update-count" type="xsd:string" />
+    </xsd:complexType>
+    <xsd:complexType name="targetType">
+        <xsd:sequence>
+            <xsd:element name="measure-type" type="targetUnitType" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The type of parameter that is being tracked, for example, body weight, blood pressure, or hemoglobin A1c level.
+                        The parameter is a reference to an ontology context and concept.
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="details" minOccurs="0">
+                <xsd:complexType>
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The target value of the measure that must be achieved to indicate that the goal or activity is fulfilled.
+                            This can be a Boolean value, numeric value, or range of high to low values
+                        </xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:choice>
+                        <xsd:element name="target-boolean" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:documentation xml:lang="en">Codified for whether the measure type should be met or not.</xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="target-numeric">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="value" type="xsd:double" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">Numeric value of the measure type.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                    <xsd:element name="operator" type="xsd:string" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">Codified operator indicating how the measure type can be evaluated.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                    <xsd:element name="unit" type="targetUnitType" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">The unit for the range values.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                        <xsd:element name="target-range">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="lower-bound" type="xsd:double" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">Inclusive lower boundary of the range.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                    <xsd:element name="upper-bound" type="xsd:double" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">Inclusive upper boundary of the range.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                    <xsd:element name="unit" type="targetUnitType" minOccurs="0">
+                                        <xsd:annotation>
+                                            <xsd:documentation xml:lang="en">The unit for the range values.</xsd:documentation>
+                                        </xsd:annotation>
+                                    </xsd:element>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:choice>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="targetUnitType">
+        <xsd:sequence>
+            <xsd:element name="concept-alias" type="xsd:string" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The concept alias.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="description" type="xsd:string" minOccurs="0">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The textual description.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="context-id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The context identifier.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>

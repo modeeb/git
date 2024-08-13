@@ -1,0 +1,3182 @@
+<?xml version="1.0"?>
+<root>
+	<filters>
+		<filter>
+			<name>Gedetailleerde instructie</name>
+			<description>Gedetailleerde instructie</description>
+			<file>\cernerbasiccontent\filters\advancedirectivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Allergieën</name>
+			<description>Actieve allergieën</description>
+			<file>\cernerbasiccontent\filters\allergyfilter.xml</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Beoordeling en plan</name>
+			<description>Beoordeling en plan</description>
+			<file>\cernerbasiccontent\filters\ipfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Gedragsgerelateerde gezondheidsproblemen</name>
+			<description>Gedragsgerelateerde gezondheidsproblemen</description>
+			<file>\cernerbasiccontent\filters\behavioralhealthissuesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hoofdklacht</name>
+			<description>Hoofdklacht</description>
+			<file>\cernerbasiccontent\filters\chiefcomplaintfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hoofdklacht en reden voor bezoek</name>
+			<description>Hoofdklacht en reden voor bezoek</description>
+			<file>\cernerbasiccontent\filters\cc_rfvfilter.xml</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Instrumenten en apparatuur</name>
+			<description>Instrumenten en apparatuur</description>
+			<file>\cernerbasiccontent\filters\devicesequipmentfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Diagnosen</name>
+			<description>Diagnosen</description>
+			<file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Ontslagdatum</name>
+			<description>Ontslagdatum</description>
+			<file>\cernerbasiccontent\filters\dischargedatefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Toestand bij ontslag</name>
+			<description>Toestand bij ontslag</description>
+			<file>\cernerbasiccontent\filters\dischargedispositionfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Diagnoseorders</name>
+			<description>Diagnosen en orders met koppelingen</description>
+			<file>\cernerbasiccontent\filters\dxordersfilter.xml</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Contact</name>
+			<description>Contact</description>
+			<file>\cernerbasiccontent\filters\encounterfilter.xml</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Familieanamnese</name>
+			<description>Familieanamnese</description>
+			<file>\cernerbasiccontent\filters\familyhistory.xml</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Follow-up</name>
+			<description>Follow-up</description>
+			<file>\cernerbasiccontent\filters\followupfilter.xml</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Voetnoten</name>
+			<description>Voetnoten</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Functioneel cognitief</name>
+			<description>Functioneel cognitief</description>
+			<file>\cernerbasiccontent\filters\functionalcognitivefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Toekomstige afspraken</name>
+			<description>Toekomstige afspraken</description>
+			<file>\cernerbasiccontent\filters\futureapptsfilter.xml</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Toekomstige orders</name>
+			<description>Toekomstige orders</description>
+			<file>\cernerbasiccontent\filters\futureordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Toekomstige orders patiëntgericht</name>
+			<description>Toekomstige orders patiëntgericht</description>
+			<file>\cernerbasiccontent\filters\futureordersfilterptfacing.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Doelen</name>
+			<description>Doelen</description>
+			<file>\cernerbasiccontent\filters\goalsfilter.xml</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Gezondheidsrisico's</name>
+			<description>Gezondheidsrisico's</description>
+			<file>\cernerbasiccontent\filters\healthconcernsfilter.xml</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Gezondheidsstatus</name>
+			<description>Gezondheidsstatus</description>
+			<file>\cernerbasiccontent\filters\healthstatusfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Speciële anamnese</name>
+			<description>Speciële anamnese</description>
+			<file>\cernerbasiccontent\filters\hpifilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Thuisbehandelingen</name>
+			<description>Thuisbehandelingen</description>
+			<file>\cernerbasiccontent\filters\hometreatmentsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Hospitalisatieverloop</name>
+			<description>Hospitalisatieverloop</description>
+			<file>\cernerbasiccontent\filters\hospitalcoursefilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Afbeeldingen</name>
+			<description>Afbeeldingen</description>
+			<file>\cernerbasiccontent\filters\taggedimagefilter.xml</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Immunisatie - dit bezoek</name>
+			<description>Immunisatie - dit bezoek</description>
+			<file>\cernerbasiccontent\filters\immunizationsthisvisit.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Immunisaties</name>
+			<description>Immunisaties</description>
+			<file>\cernerbasiccontent\filters\immunizationsv2filter.xml</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Geïmplanteerde apparaten</name>
+			<description>Geïmplanteerde apparaten</description>
+			<file>\cernerbasiccontent\filters\implanteddevicesencounterlevelfilter.xml</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Labs</name>
+			<description>Labs</description>
+			<file>\cernerbasiccontent\filters\labsfilter.xml</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Labs V2</name>
+			<description>Labs V2</description>
+			<file>\cernerbasiccontent\filters\labsv2filter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Laatste BP</name>
+			<description>Laatste beoordeling en plan</description>
+			<file>\cernerbasiccontent\filters\lastapfilter.xml</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Medicaties</name>
+			<description>Voorgeschreven medicaties</description>
+			<file>\cernerbasiccontent\filters\medicationsfilter.xml</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Medicatietoediening</name>
+			<description>Medicatietoediening</description>
+			<file>\cernerbasiccontent\filters\medsadmin.xml</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Medicatieverificatie</name>
+			<description>Medicatieverificatie</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Medicatieverificatie vereenvoudigd</name>
+			<description>Medicatieverificatie vereenvoudigd</description>
+			<file>\cernerbasiccontent\filters\medsrec.xml</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Wijze van ontslagtransport</name>
+			<description>Wijze van ontslagtransport</description>
+			<file>\cernerbasiccontent\filters\modedischargetransportationfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Testresultaten ZP</name>
+			<description>Testresultaten ZP</description>
+			<file>\cernerbasiccontent\filters\poctestresultsfilter.xml</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patiëntvoorlichting</name>
+			<description>Patiëntvoorlichting</description>
+			<file>\cernerbasiccontent\filters\patedfilter.xml</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Patiëntinstructies</name>
+			<description>Patiëntinstructies</description>
+			<file>\cernerbasiccontent\filters\patientinstructionsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Lichamelijk onderzoek</name>
+			<description>Lichamelijk onderzoek</description>
+			<file>\cernerbasiccontent\filters\pefilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Ontslagorders na acute zorg</name>
+			<description>Ontslagorders na acute zorg</description>
+			<file>\cernerbasiccontent\filters\pacdischargeordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Problemen - alle</name>
+			<description>Actieve problemen</description>
+			<file>\cernerbasiccontent\filters\problemfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Problemen - medisch</name>
+			<description>Actieve medische problemen</description>
+			<file>\cernerbasiccontent\filters\problemmedicalfilter.xml</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Procedures</name>
+			<description>Procedures</description>
+			<file>\cernerbasiccontent\filters\proceduresfilter.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Procedures tijdens dit bezoek</name>
+			<description>Procedures tijdens dit bezoek</description>
+			<file>\cernerbasiccontent\filters\proceduresfilterthisvisit.xml</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Professionele vaardigheden</name>
+			<description>Professionele vaardigheden</description>
+			<file>\cernerbasiccontent\filters\proskillservicesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Radiologie</name>
+			<description>Radiologieorders en -resultaten</description>
+			<file>\cernerbasiccontent\filters\radsfilter.xml</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Recapitulatie van verblijf</name>
+			<description>Recapitulatie van verblijf</description>
+			<file>\cernerbasiccontent\filters\recapitulationofstayfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Verwijsorders</name>
+			<description>Verwijsorders</description>
+			<file>\cernerbasiccontent\filters\referralordersfilter.xml</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Tractusanamnese</name>
+			<description>Tractusanamnese</description>
+			<file>\cernerbasiccontent\filters\rosfilter.xml</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Sociale geschiedenis</name>
+			<description>Sociale geschiedenis</description>
+			<file>\cernerbasiccontent\filters\socialhistoryfilter.xml</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Speciale diensten en gemeenschapsresources</name>
+			<description>Speciale diensten en gemeenschapsresources</description>
+			<file>\cernerbasiccontent\filters\specialservicescommunityresourcesfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Label - Gelabelde tekst</name>
+			<description>Gelabelde tekst op het klembord</description>
+			<file>\cernerbasiccontent\filters\taggedtextfilter.xml</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Testresultaten</name>
+			<description>Voltooide en uitstaande laboratoriumtesten</description>
+			<file>\cernerbasiccontent\filters\testresultsfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Tests uitstaand</name>
+			<description>Laboratorium- en radiologieresultaten uitstaand</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Tests uitgevoerd</name>
+			<description>Voltooide en uitstaande laboratorium- en radiologietesten</description>
+			<file>\cernerbasiccontent\filters\testspendingfilter.xml</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen</name>
+			<description>Vitale functies en metingen</description>
+			<file>\cernerbasiccontent\filters\vitalsfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen cardiologie</name>
+			<description>Vitale functies en metingen cardiologie</description>
+			<file>\cernerbasiccontent\filters\vitalscardiologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen spoed</name>
+			<description>Vitale functies en metingen spoed</description>
+			<file>\cernerbasiccontent\filters\vitalsedfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen neurologie</name>
+			<description>Vitale functies en metingen neurologie</description>
+			<file>\cernerbasiccontent\filters\vitalsneurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen patiëntgericht</name>
+			<description>Vitale functies en metingen patiëntgericht</description>
+			<file>\cernerbasiccontent\filters\vitalsfilterptfacing.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+		<filter>
+			<name>Vitale functies en metingen urologie</name>
+			<description>Vitale functies en metingen urologie</description>
+			<file>\cernerbasiccontent\filters\vitalsurologyfilter.xml</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</filter>
+	</filters>
+	<formats>
+		<format>
+			<description>Adres</description>
+			<file>\cernerbasiccontent\formats\nl\addressfxn_nl.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Adres (logisch)</description>
+			<file>\cernerbasiccontent\formats\addressfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Allergieën</description>
+			<file>\cernerbasiccontent\formats\nl\allergy_nl.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Allergieën (logisch)</description>
+			<file>\cernerbasiccontent\formats\allergy.xslt</file>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Beoordeling en plan</description>
+			<file>\cernerbasiccontent\formats\ip.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Zorgteam</description>
+			<file>\cernerbasiccontent\formats\nl\careteam_nl.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Zorgteam (logisch)</description>
+			<file>\cernerbasiccontent\formats\careteam.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hoofdklacht en reden voor bezoek</description>
+			<file>\cernerbasiccontent\formats\nl\ccrfv_nl.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hoofdklacht en reden voor bezoek (logisch)</description>
+			<file>\cernerbasiccontent\formats\ccrfv.xslt</file>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\commonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Datumnotatie</description>
+			<file>\cernerbasiccontent\formats\nl\dateformat_nl.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens alias locatieregistratie huisarts (logisch)</description>
+			<file>\cernerbasiccontent\formats\demoaliaslocregproviders.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens alias locatieregistratie zorgverleners</description>
+			<file>\cernerbasiccontent\formats\nl\demoaliaslocregproviders_nl.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens taal ras etniciteit</description>
+			<file>\cernerbasiccontent\formats\nl\demolangraceethn_nl.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens taal ras etniciteit (logisch)</description>
+			<file>\cernerbasiccontent\formats\demolangraceethn.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens naam contact geslacht geboortedatum</description>
+			<file>\cernerbasiccontent\formats\nl\demonamecontactgenderdob_nl.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens naam contact geslacht geboortedatum (logisch)</description>
+			<file>\cernerbasiccontent\formats\demonamecontactgenderdob.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens naam geboortedatum patiëntnummer bezoekdatum</description>
+			<file>\cernerbasiccontent\formats\nl\demographicsptfacing_nl.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens naam geboortedatum patiëntnummer bezoekdatum (logisch)</description>
+			<file>\cernerbasiccontent\formats\demographicsptfacing.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Demografische gegevens volledige patiëntnaam</description>
+			<file>\cernerbasiccontent\formats\demoptnamefull.xslt</file>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosen</description>
+			<file>\cernerbasiccontent\formats\nl\diagnoses_nl.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosen (logisch)</description>
+			<file>\cernerbasiccontent\formats\diagnoses.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosen gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\dxcommonfxn.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosen patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\diagnosespatient_nl.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosetabel (logisch)</description>
+			<file>\cernerbasiccontent\formats\diagnosestable.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Indeling diagnosetabel</description>
+			<file>\cernerbasiccontent\formats\nl\diagnosestable_nl.xslt</file>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Ontslagorders</description>
+			<file>\cernerbasiccontent\formats\nl\dischargeorders_nl.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Ontslagorders (logica)</description>
+			<file>\cernerbasiccontent\formats\dischargeorders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosecodes</description>
+			<file>\cernerbasiccontent\formats\nl\dxcodes_nl.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnosecodes (logisch)</description>
+			<file>\cernerbasiccontent\formats\dxcodes.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoseorders</description>
+			<file>\cernerbasiccontent\formats\nl\dxorder_nl.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Diagnoseorders (logisch)</description>
+			<file>\cernerbasiccontent\formats\dxorder.xslt</file>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Info EMD algemeen</description>
+			<file>\cernerbasiccontent\formats\emrinfocommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Familieanamnese</description>
+			<file>\cernerbasiccontent\formats\nl\familyhistory_nl.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Familieanamnese (logisch)</description>
+			<file>\cernerbasiccontent\formats\familyhistory.xslt</file>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up</description>
+			<file>\cernerbasiccontent\formats\nl\followup_nl.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up (logisch)</description>
+			<file>\cernerbasiccontent\formats\followup.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\followupptfacing_nl.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up patiëntgericht (logisch)</description>
+			<file>\cernerbasiccontent\formats\followupptfacing.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up voor providers</description>
+			<file>\cernerbasiccontent\formats\nl\followupprovider_nl.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Follow-up voor providers (logisch)</description>
+			<file>\cernerbasiccontent\formats\followupprovider.xslt</file>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Voetnoten</description>
+			<file>\cernerbasiccontent\formats\nl\footnote_nl.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Voetnoten (logisch)</description>
+			<file>\cernerbasiccontent\formats\footnote.xslt</file>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Functioneel cognitief patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\functionalcognitive_ptfacing_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Toekomstige afspraken</description>
+			<file>\cernerbasiccontent\formats\nl\futureappts_nl.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Toekomstige afspraken (logisch)</description>
+			<file>\cernerbasiccontent\formats\futureappts.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Toekomstige afspraken patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\futureapptsptfacing_nl.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Toekomstige afspraken patiëntgericht (logisch)</description>
+			<file>\cernerbasiccontent\formats\futureapptsptfacing.xslt</file>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen</description>
+			<file>\cernerbasiccontent\formats\nl\goals_nl.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen (logisch)</description>
+			<file>\cernerbasiccontent\formats\goals.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen algemeen logisch</description>
+			<file>\cernerbasiccontent\formats\goalscommon.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel doel en resultaat</description>
+			<file>\cernerbasiccontent\formats\nl\goalsoutcomestable_nl.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel doel en resultaat (logisch)</description>
+			<file>\cernerbasiccontent\formats\goalsoutcomestable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel alleen doelen</description>
+			<file>\cernerbasiccontent\formats\nl\goalsgoalstable_nl.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel alleen doelen (logisch)</description>
+			<file>\cernerbasiccontent\formats\goalsgoalstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel alleen interventies</description>
+			<file>\cernerbasiccontent\formats\nl\goalsinterventionstable_nl.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Doelen: indeling tabel alleen interventies (logisch)</description>
+			<file>\cernerbasiccontent\formats\goalsinterventionstable.xslt</file>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Gezondheidsrisico's</description>
+			<file>\cernerbasiccontent\formats\nl\healthconcerns_nl.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Gezondheidsrisico's (logisch)</description>
+			<file>\cernerbasiccontent\formats\healthconcerns.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel gezondheidsrisico's (logisch)</description>
+			<file>\cernerbasiccontent\formats\healthconcernstable.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Indeling tabel gezondheidsrisico's</description>
+			<file>\cernerbasiccontent\formats\nl\healthconcernstable_nl.xslt</file>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel Gezondheidsstatus</description>
+			<file>\cernerbasiccontent\formats\nl\healthstatustable_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel Gezondheidsstatus (Logic)</description>
+			<file>\cernerbasiccontent\formats\healthstatustable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Speciële anamnese</description>
+			<file>\cernerbasiccontent\formats\hpi.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hospitalisatieverloop</description>
+			<file>\cernerbasiccontent\formats\nl\hospitalcourse_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Hospitalisatieverloop (logisch)</description>
+			<file>\cernerbasiccontent\formats\hospitalcourse.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Afbeeldingen</description>
+			<file>\cernerbasiccontent\formats\nl\images_nl.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Afbeeldingen (logisch)</description>
+			<file>\cernerbasiccontent\formats\images.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisatie - gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\immunizationcommon.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisatie - dit bezoek</description>
+			<file>\cernerbasiccontent\formats\nl\immunizationsthisvisit_nl.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisatie - dit bezoek (logisch)</description>
+			<file>\cernerbasiccontent\formats\immunizationsthisvisit.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisatie - dit bezoek zorgverlenergericht</description>
+			<file>\cernerbasiccontent\formats\nl\immunizationsthisvisitprovider_nl.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisaties</description>
+			<file>\cernerbasiccontent\formats\nl\immunizations_nl.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisaties (logisch)</description>
+			<file>\cernerbasiccontent\formats\immunizations.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Immunisaties patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\immunizations_ptfacing_nl.xslt</file>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Geïmplanteerde apparaten</description>
+			<file>\cernerbasiccontent\formats\nl\implanteddevices_nl.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Geïmplanteerde apparaten (logisch)</description>
+			<file>\cernerbasiccontent\formats\implanteddevices.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Geïmplanteerde apparaten patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\implanteddevicespatient_nl.xslt</file>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen patiëntgericht (langdurige zorg)</description>
+			<file>\cernerbasiccontent\formats\nl\ltcproblem_ptfacing_nl.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Labs v2 (logisch)</description>
+			<file>\cernerbasiccontent\formats\labsv2.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Labs v2 patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\labsv2patient_nl.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Labs v2 patiëntgericht met tijdvenster</description>
+			<file>\cernerbasiccontent\formats\nl\labsv2patient_timewindow_nl.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Labs v2 voor providers</description>
+			<file>\cernerbasiccontent\formats\nl\labsv2provider_nl.xslt</file>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laatste beoordelingsplan</description>
+			<file>\cernerbasiccontent\formats\nl\lastap_nl.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Laatste beoordelingsplan (logisch)</description>
+			<file>\cernerbasiccontent\formats\lastap.xslt</file>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicaties (logisch)</description>
+			<file>\cernerbasiccontent\formats\meds.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatietoediening</description>
+			<file>\cernerbasiccontent\formats\nl\medsadmin_nl.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatietoediening (logisch)</description>
+			<file>\cernerbasiccontent\formats\medsadmin.xslt</file>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatietoediening gemeenschappelijk (Logic)</description>
+			<file>\cernerbasiccontent\formats\medsadmincommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicaties gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\medscommon.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie</description>
+			<file>\cernerbasiccontent\formats\nl\medsrec_nl.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie (logisch)</description>
+			<file>\cernerbasiccontent\formats\medsrec.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie artsgericht</description>
+			<file>\cernerbasiccontent\formats\nl\medsrecphysician_nl.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie artsgericht (logica)</description>
+			<file>\cernerbasiccontent\formats\medsrecphysician.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie toon kolom volgende dosis</description>
+			<file>\cernerbasiccontent\formats\nl\medsrec_nextdose_nl.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie vereenvoudigd</description>
+			<file>\cernerbasiccontent\formats\nl\medsrecsimplified_nl.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie vereenvoudigd (logisch)</description>
+			<file>\cernerbasiccontent\formats\medsrecsimplified.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicatieverificatie zonder ongewjizigde medicaties</description>
+			<file>\cernerbasiccontent\formats\nl\medsrec_withoutunchangedmeds_nl.xslt</file>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicaties met gecategoriseerde display (logisch)</description>
+			<file>\cernerbasiccontent\formats\medscategorized.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Thuismedicaties met gecategoriseerde weergave</description>
+			<file>\cernerbasiccontent\formats\nl\medscategorizedhome_nl.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Thuismedicaties met gecategoriseerde weergave (logisch)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedhome.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Klinische medicaties met gecategoriseerde weergave</description>
+			<file>\cernerbasiccontent\formats\nl\medscategorizedinpatient_nl.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Klinische medicaties met gecategoriseerde weergave (logisch)</description>
+			<file>\cernerbasiccontent\formats\medscategorizedinpatient.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Med</description>
+			<file>\cernerbasiccontent\formats\nl\meds_nl.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicaties i18n gebruikelijk</description>
+			<file>\cernerbasiccontent\formats\nl\medsi18ncommon_nl.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Medicaties met gecategoriseerde display</description>
+			<file>\cernerbasiccontent\formats\nl\medscategorized_nl.xslt</file>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Wijze van ontslagtransport</description>
+			<file>\cernerbasiccontent\formats\nl\modeofdischargetransportation_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Wijze van ontslagtransport (logisch)</description>
+			<file>\cernerbasiccontent\formats\modeofdischargetransportation.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orders</description>
+			<file>\cernerbasiccontent\formats\nl\orders_nl.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Orders (logisch)</description>
+			<file>\cernerbasiccontent\formats\orders.xslt</file>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatZorgMeting</description>
+			<file>\cernerbasiccontent\formats\nl\patcaremeasurement_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatZorgMeting (logisch)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>PatZorgMeting gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel PatZorgMetingen</description>
+			<file>\cernerbasiccontent\formats\nl\patcaremeasurementstable_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel PatZorgMetingen (logisch)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurementstable.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Naamwaarde meting patiëntenzorg</description>
+			<file>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Naamwaarde meting patiëntenzorg (logica)</description>
+			<file>\cernerbasiccontent\formats\patcaremeasurement_namevalue.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Naamwaarde meting patiëntenzorg patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntvoorlichting</description>
+			<file>\cernerbasiccontent\formats\nl\pated_nl.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntvoorlichting (logisch)</description>
+			<file>\cernerbasiccontent\formats\pated.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntvoorlichting voor zorgverleners</description>
+			<file>\cernerbasiccontent\formats\nl\patedprovider_nl.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntvoorlichting voor zorgverleners (logisch)</description>
+			<file>\cernerbasiccontent\formats\patedprovider.xslt</file>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntinstructies</description>
+			<file>\cernerbasiccontent\formats\nl\patientinstructions_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Patiëntinstructies (logisch)</description>
+			<file>\cernerbasiccontent\formats\patientinstructions.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Lichamelijk onderzoek</description>
+			<file>\cernerbasiccontent\formats\pe.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen</description>
+			<file>\cernerbasiccontent\formats\nl\problem_nl.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen (logisch)</description>
+			<file>\cernerbasiccontent\formats\problem.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\problemcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\problempatient_nl.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problemen patiëntgericht (logisch)</description>
+			<file>\cernerbasiccontent\formats\problempatient.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Problementabel (logisch)</description>
+			<file>\cernerbasiccontent\formats\problemtable.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Indeling problementabel</description>
+			<file>\cernerbasiccontent\formats\nl\problemtable_nl.xslt</file>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Procedures</description>
+			<file>\cernerbasiccontent\formats\nl\procedures_nl.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Procedures (logisch)</description>
+			<file>\cernerbasiccontent\formats\procedures.xslt</file>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad (logisch)</description>
+			<file>\cernerbasiccontent\formats\rads.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\radscommon.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\radspatient_nl.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad patiëntgericht met tijdvenster</description>
+			<file>\cernerbasiccontent\formats\nl\radspatient_timewindow_nl.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad voor providers</description>
+			<file>\cernerbasiccontent\formats\nl\radsprovider_nl.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad voor providers (logisch)</description>
+			<file>\cernerbasiccontent\formats\radsprovider.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Rad i18n gebruikelijk</description>
+			<file>\cernerbasiccontent\formats\nl\radsi18ncommon_nl.xslt</file>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Herbruikbare tabel logisch</description>
+			<file>\cernerbasiccontent\formats\tablecommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tractusanamnese</description>
+			<file>\cernerbasiccontent\formats\ros.xslt</file>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sociale geschiedenis</description>
+			<file>\cernerbasiccontent\formats\nl\socialhistory_nl.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Sociale geschiedenis (logisch)</description>
+			<file>\cernerbasiccontent\formats\socialhistory.xslt</file>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tabel meting gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\tablemeasurementcommon.xslt</file>
+			<type>COMMON</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - gelabelde afbeeldingen</description>
+			<file>\cernerbasiccontent\formats\tag\nl\taggedimages_nl.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - gelabelde afbeeldingen (logisch)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedimages.xslt</file>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - gelabelde labs</description>
+			<file>\cernerbasiccontent\formats\tag\nl\taggedlabs_nl.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - gelabelde labs (logisch)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedlabs.xslt</file>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - Gelabelde tekst</description>
+			<file>\cernerbasiccontent\formats\tag\nl\taggedtext_nl.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Label - gelabelde tekst (logisch)</description>
+			<file>\cernerbasiccontent\formats\tag\taggedtext.xslt</file>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Testresultaten</description>
+			<file>\cernerbasiccontent\formats\nl\testresults_nl.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tests uitstaand</description>
+			<file>\cernerbasiccontent\formats\nl\testspending_nl.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tests uitstaand (logisch)</description>
+			<file>\cernerbasiccontent\formats\testspending.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tests uitstaand patiëntgericht met tijdvenster</description>
+			<file>\cernerbasiccontent\formats\nl\testspending_timewindow_nl.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tests uitgevoerd</description>
+			<file>\cernerbasiccontent\formats\nl\testsperformed_nl.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Tests uitgevoerd (logisch)</description>
+			<file>\cernerbasiccontent\formats\testsperformed.xslt</file>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurement_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen (logisch)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurement.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen cardiologie</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurementcardiology_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen cardiologie (logisch)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcardiology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen gebruikelijk (logisch)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementcommon.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen spoed</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasuremented_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen spoed (logisch)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasuremented.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen neurologie</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurementneurology_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen neurologie (logisch)</description>
+			<file>\cernerbasiccontent\formats\vitalsmeasurementneurology.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurementptfacing_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen i18n gebruikelijk</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurementi18ncommon_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+		<format>
+			<description>Vitale functies en metingen i18n gebruikelijk patiëntgericht</description>
+			<file>\cernerbasiccontent\formats\nl\vitalsmeasurementi18ncommonptfacing_nl.xslt</file>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+		</format>
+	</formats>
+	<emrcontents>
+		<emrcontent>
+			<name>Gedetailleerde instructie</name>
+			<description>Gedetailleerde instructie</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gedetailleerde instructie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2001A4E5-8086-469C-8F15-7C3E62C9D70A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Gedetailleerde instructie patiëntgericht</name>
+			<description>Gedetailleerde instructie patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gedetailleerde instructie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BFD90E95-27DF-4AEE-989C-6A7AF37BC5FA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Allergieën</name>
+			<description>Actieve allergieën</description>
+			<type>ALLERGIES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Allergieën\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\allergy_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1446A201-FD91-4A82-B645-306DC948DC48</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Beoordeling en plan</name>
+			<description>Beoordeling en plan</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Beoordeling en plan\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ip.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9EE022D1-07D8-4002-9E5B-6586B61DA9FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Gedragsgerelateerde gezondheidsproblemen</name>
+			<description>Gedragsgerelateerde gezondheidsproblemen</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gedragsgerelateerde gezondheidsproblemen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F9651036-C2B3-42A0-B782-ED9699D9CF8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Zorgteam</name>
+			<description>Zorgteam</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\careteam_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF358768-D939-4AAC-A86E-89595ECAD163</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hoofdklacht</name>
+			<description>Laatste hoofdklacht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hoofdklacht\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>ECF53099-D2D3-4DCC-B002-CCEED9C6A6BA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hoofdklacht en reden voor bezoek</name>
+			<description>Hoofdklacht en reden voor bezoek</description>
+			<type>CC_RFV</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hoofdklacht en reden voor bezoek\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\ccrfv_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F2202DCE-7F67-4EFC-8887-151BD1E46A7D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Demografische gegevens alias locatieregistratie zorgverleners</name>
+			<description>Demografische gegevens alias locatieregistratie zorgverleners</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\demoaliaslocregproviders_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>165C11FB-7B7A-4AD6-91F6-D400F641D7FC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Demografische gegevens taal ras etniciteit</name>
+			<description>Demografische gegevens taal ras etniciteit</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\demolangraceethn_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5991C999-F0C9-4A35-94E3-B003475B2371</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Demografische gegevens naam contact geslacht geboortedatum</name>
+			<description>Demografische gegevens naam contact geslacht geboortedatum</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\demonamecontactgenderdob_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D688B080-37F0-49FB-86CB-D6E199601A27</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Demografische gegevens patiëntgericht</name>
+			<description>Demografische gegevens patiëntgericht</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\demographicsptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51F22E71-926B-4A97-A270-F9AF7DC50F8A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Demografische gegevens volledige patiëntnaam</name>
+			<description>Demografische gegevens volledige patiëntnaam</description>
+			<type>ENCNTRINFO</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Contact\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\demoptnamefull.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>48A18750-E486-48D4-BF32-4E8A4E214063</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Instrumenten en apparatuur</name>
+			<description>Instrumenten en apparatuur</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Instrumenten en apparatuur\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2D36578-30E0-43BF-9D58-AB61AF836BB6</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Instrumenten en apparatuur patiëntgericht</name>
+			<description>Instrumenten en apparatuur patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Instrumenten en apparatuur\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E107B1EE-7134-4CBF-8656-80795FC3E20D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnosen</name>
+			<description>Diagnoselijst</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnosen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\diagnoses_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>12AF70F8-5460-46C7-9EAE-D05387420034</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnosen patiëntgericht</name>
+			<description>Diagnoselijst patiëntgericht</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnosen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\diagnosespatient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>BB4D7BEC-C046-481D-8311-65659D75ED8F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Indeling diagnosetabel</name>
+			<description>Indeling diagnosetabel</description>
+			<type>DIAGNOSES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnosen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\diagnosestable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D5F9A419-A2A3-44F0-AB30-CDCD9AC7330B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Ontslagdatum</name>
+			<description>Ontslagdatum</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Ontslagdatum\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>19570C91-55C6-4AA4-AAF5-67FC7A1BCF9D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Toestand bij ontslag</name>
+			<description>Toestand bij ontslag</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Toestand bij ontslag\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9AA511BE-577B-4C6D-B1F0-B9EAA60CA05C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Toestand bij ontslag patiëntgericht</name>
+			<description>Toestand bij ontslag patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Toestand bij ontslag\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CB1601D3-1C01-4902-B4F4-2AC7C419229F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnosecodes</name>
+			<description>Diagnosecodes</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnoseorders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\dxcodes_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>452F3AB9-0E42-4109-B3AA-90C883275262</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Diagnoseorders</name>
+			<description>Actieve diagnose met orders</description>
+			<type>DXORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Diagnoseorders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\dxorder_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28ADF401-6012-454F-B8DF-CD5503253E54</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Familieanamnese</name>
+			<description>Familieanamnese</description>
+			<type>FAMILYHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Familieanamnese\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\familyhistory_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1F1618D1-D181-4E00-9B64-51F4895E7626</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Follow-up</name>
+			<description>Follow-up</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Follow-up\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\followup_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C9FF9E4D-285D-4C96-A248-104C01C3F326</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Follow-up patiëntgericht</name>
+			<description>Follow-up</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Follow-up\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\followupptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>83F449B6-6106-46A4-8DD0-57D4ED4EB2AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Follow-up voor providers</name>
+			<description>Follow-up voor providers</description>
+			<type>FOLLOW_UP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Follow-up\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\followupprovider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9DC024E8-603C-4A6A-83EA-8A96FE7EB9D2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Voetnoten</name>
+			<description>Voetnoten</description>
+			<type>FOOTNOTE</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Voetnoten\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\footnote_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03B1CB1F-B571-4AA9-8115-8CDDD8F34A28</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Functioneel cognitief</name>
+			<description>Functioneel cognitief</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Functioneel cognitief\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurementstable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>84AFDA05-19B5-4667-8C1F-DC721F1AE024</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Functioneel cognitief patiëntgericht</name>
+			<description>Functioneel cognitief patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Functioneel cognitief\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\functionalcognitive_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D11AAB14-A6C3-48C4-A730-70B587B17EF2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Toekomstige afspraken</name>
+			<description>Toekomstige afspraken</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Toekomstige afspraken\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\futureappts_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18AF1EC5-77AB-4303-B720-E0006FBFA22F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Toekomstige afspraken patiëntgericht</name>
+			<description>Toekomstige afspraken patiëntgericht</description>
+			<type>FUTURE_APPTS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Toekomstige afspraken\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\futureapptsptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>877D911F-88C4-4F12-80FB-7C881ABC560A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Toekomstige orders patiëntgericht</name>
+			<description>Toekomstige orders patiëntgericht</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Toekomstige orders patiëntgericht\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\orders_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1C84763A-A375-4218-9F40-D4BAE0800374</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Doelen</name>
+			<description>Doelen</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Doelen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\goals_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A15ABF2F-12E1-4022-AE82-8838D192B41B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Doelen: indeling tabel doel en resultaat</name>
+			<description>Doelen: indeling tabel doel en resultaat</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Doelen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\goalsoutcomestable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>0EFA20EA-CFE4-437F-BD91-EFEDEFBE90D5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Doelen: indeling tabel alleen doelen</name>
+			<description>Doelen: indeling tabel alleen doelen</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Doelen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\goalsgoalstable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50BF1B4C-909C-469A-8012-95544F1F9805</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Doelen: indeling tabel alleen interventies</name>
+			<description>Doelen: indeling tabel alleen interventies</description>
+			<type>GOALS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Doelen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\goalsinterventionstable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>51BB8D8B-A6D0-4571-BA69-91A696AFE1F7</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Gezondheidsrisico's</name>
+			<description>Gezondheidsrisico's</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gezondheidsrisico's\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\healthconcerns_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EABE14DF-577E-4A05-918F-13135C5D4AFD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Indeling tabel gezondheidsrisico's</name>
+			<description>Indeling tabel gezondheidsrisico's</description>
+			<type>HEALTHCONCRN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gezondheidsrisico's\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\healthconcernstable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9036D5E8-138F-43C9-9DA2-0C7EDDB3DFEF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Gezondheidsstatus</name>
+			<description>Gezondheidsstatus</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Gezondheidsstatus\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\healthstatustable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>59E4A2D3-FE25-41B1-BC4A-11F6B5F357EC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Speciële anamnese</name>
+			<description>Speciële anamnese</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Speciële anamnese\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\hpi.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50300668-B513-41B3-828B-0F6E57E9CA89</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Thuisbehandelingen</name>
+			<description>Thuisbehandelingen</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Thuisbehandelingen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>348244CD-47D5-49FD-978E-24EF64684E3F</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Thuisbehandelingen patiëntgericht</name>
+			<description>Thuisbehandelingen patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Thuisbehandelingen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CAD4121E-E027-481D-BBD9-50D1B46F9493</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Hospitalisatieverloop</name>
+			<description>Hospitalisatieverloop</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Hospitalisatieverloop\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\hospitalcourse_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B03472B3-2161-40C7-9A3D-0CF7FF75115E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Afbeeldingen</name>
+			<description>Afbeeldingen</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Afbeeldingen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\images_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2D4D1119-2873-40E0-95AB-13A07C93662E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Immunisatie - dit bezoek</name>
+			<description>Immunisatie - dit bezoek</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunisatie - dit bezoek\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\immunizationsthisvisit_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>4C8BA0DA-6B38-4D47-B74E-A498CD916643</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Immunisatie - dit bezoek zorgverlenergericht</name>
+			<description>Immunisatie - dit bezoek zorgverlenergericht</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunisatie - dit bezoek\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\immunizationsthisvisitprovider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>101093D7-890B-4344-B1B1-1CCA2F8FDFB2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Immunisaties</name>
+			<description>Immunisaties</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunisaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\immunizations_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40E68F09-3679-4F48-A13D-5E13AFB1FF86</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Immunisaties patiëntgericht</name>
+			<description>Immunisaties patiëntgericht</description>
+			<type>IMMUNZTNS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Immunisaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\immunizations_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>35AB29CD-071F-4191-810C-FD3CDA64C4B5</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Geïmplanteerde apparaten</name>
+			<description>Geïmplanteerde apparaten</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Geïmplanteerde apparaten\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\implanteddevices_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>8FA34C2F-9666-454F-8F63-FEDB34F0A487</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Geïmplanteerde apparaten patiëntgericht</name>
+			<description>Geïmplanteerde apparaten patiëntgericht</description>
+			<type>IMP_DEVICES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Geïmplanteerde apparaten\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\implanteddevicespatient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D2CD2684-EC6D-4199-982D-490AC2F6AFCA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemen patiëntgericht (langdurige zorg)</name>
+			<description>Langdurige zorgproblemen patiëntgericht</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemen - medisch\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\ltcproblem_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>852772ED-0ACB-46DC-9013-39D0B7983066</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Labs v2 patiëntgericht</name>
+			<description>Labs v2 patiëntgericht</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Labs V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\labsv2patient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A0901198-34CD-4C8A-99A6-20BA621DE5DD</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Labs v2 patiëntgericht met tijdvenster</name>
+			<description>Labs v2 patiëntgericht met tijdvenster</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Labs V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\labsv2patient_timewindow_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7D1FAF5-6E84-4E19-9EFF-6091FE9CD7DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Labs v2 voor providers</name>
+			<description>Labs v2 voor providers</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Labs V2\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\labsv2provider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F00A1650-AE55-4CC2-A86C-C8262A21A4A1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Laatste BP</name>
+			<description>Laatste beoordelingsplan</description>
+			<type>LASTAP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Laatste BP\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\lastap_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>14F1A29A-C151-4B86-BAEE-FEB6FD2EB897</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicaties</name>
+			<description>Voorgeschreven medicaties</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\meds_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>381B1344-329A-4C22-8E0A-40F7D88D37AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatietoediening</name>
+			<description>Medicatietoediening</description>
+			<type>MEDS_ADMIN</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatietoediening\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsadmin_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>FEF918D9-FB43-45B0-81CA-F3819EA1ECE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatieverificatie</name>
+			<description>Medicatieverificatie</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatieverificatie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsrec_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B68EEB7D-FA90-41DC-A742-87E340AC0EB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatieverificatie artsgericht</name>
+			<description>Medicatieverificatie artsgericht</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatieverificatie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsrecphysician_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6DFE19F4-46EA-4C20-B6FC-789A3F4697EB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatieverificatie toon kolom volgende dosis</name>
+			<description>Medicatieverificatie toon kolom volgende dosis</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatieverificatie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsrec_nextdose_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B5D32EC1-7B0B-418B-83FB-64796A7ABECC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatieverificatie vereenvoudigd</name>
+			<description>Medicatieverificatie vereenvoudigd</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatieverificatie vereenvoudigd\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsrecsimplified_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B8D4BC5E-F5DA-4B58-AD98-F47875B51EEA</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicatieverificatie zonder ongewjizigde medicaties</name>
+			<description>Medicatieverificatie zonder ongewjizigde medicaties</description>
+			<type>MEDS_REC</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicatieverificatie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medsrec_withoutunchangedmeds_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>1E5D745D-7DE0-4A32-ABB8-E6251B8AB2DF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Medicaties met gecategoriseerde display</name>
+			<description>Voorgeschreven medicatie met gecategoriseerde display</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medscategorized_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>38AAD525-7E2C-40B1-8699-8969449048AB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Thuismedicaties met gecategoriseerde weergave</name>
+			<description>Aangevraagde thuismedicaties met gecategoriseerde weergave</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medscategorizedhome_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40929AB5-21C4-47AC-87BC-FA989CF1843E</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Klinische medicaties met gecategoriseerde weergave</name>
+			<description>Aangevraagde klinische medicaties met gecategoriseerde weergave</description>
+			<type>MEDICATIONS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Medicaties\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\medscategorizedinpatient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DF45DC00-8AAC-4688-96A8-1FC53F78FDDC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Wijze van ontslagtransport</name>
+			<description>Wijze van ontslagtransport</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Wijze van ontslagtransport\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>EC665279-5D8B-4892-89DE-EC93E6B7BAE4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testresultaten ZP zichtbaar voor zorgverlener</name>
+			<description>Testresultaten ZP zichtbaar voor zorgverlener</description>
+			<type>LABS_V2</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Testresultaten ZP\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\labsv2provider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>33FE04BC-AFA1-4283-8DDB-50164C677D96</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patiëntvoorlichting</name>
+			<description>Patiëntvoorlichting</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patiëntvoorlichting\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\pated_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F3707019-8923-4277-873D-978A44984AFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patiëntvoorlichting voor zorgverleners</name>
+			<description>Patiëntvoorlichting voor zorgverleners</description>
+			<type>PATIENT_ED</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patiëntvoorlichting\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patedprovider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>6C65333F-90F4-4D39-9943-D81B02F4157A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Patiëntinstructies</name>
+			<description>Patiëntinstructies</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Patiëntinstructies\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patientinstructions_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A85DDAD1-9681-4B4C-AFD2-6ADBC2728A82</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Lichamelijk onderzoek</name>
+			<description>Lichamelijk onderzoek</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Lichamelijk onderzoek\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\pe.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A49BBBFA-2A02-4D05-87A4-D5BF2836522C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Ontslagorders na acute zorg</name>
+			<description>Ontslagorders na acute zorg</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Ontslagorders na acute zorg\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\dischargeorders_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50F97245-D3D2-4342-93CE-E930A423888A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemen</name>
+			<description>Actieve problemen</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemen - alle\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\problem_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7FF0B003-8337-42A7-BABC-B90870B776A3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemen - medisch</name>
+			<description>Actieve medische problemen</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemen - medisch\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\problem_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>40FD47F5-E31A-4099-BA81-F5632CEA5A63</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Problemen patiëntgericht</name>
+			<description>Problemen patiëntgericht</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemen - medisch\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\problempatient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>58AF2105-C023-4209-854B-79F0A787ECAC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Indeling problementabel</name>
+			<description>Indeling problementabel</description>
+			<type>PROBLEMS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Problemen - alle\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\problemtable_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B0468FC7-4D09-4565-BD6E-4F3FC2CB2BBE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Procedures</name>
+			<description>Procedures</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Procedures\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\procedures_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>A7FAFBA9-8F3D-4382-937C-B218A07DB03D</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Procedures tijdens dit bezoek</name>
+			<description>Procedures tijdens dit bezoek</description>
+			<type>PROCEDURES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Procedures tijdens dit bezoek\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\procedures_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>DFADF443-E31D-4292-95AC-99D3CBF3D353</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Professionele vaardigheden</name>
+			<description>Professionele vaardigheden</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Professionele vaardigheden\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>845CE5C4-A451-415E-86F5-0E2661C607FE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Professionele vaardigheden patiëntgericht</name>
+			<description>Professionele vaardigheden patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Professionele vaardigheden\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>CA345EB9-0373-495A-84DB-0E8E1E7C55CE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologie patiëntgericht</name>
+			<description>Radiologieorders en -resultaten patiëntgericht</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\radspatient_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>94019434-B37C-45F1-AA53-F7848DE100D3</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologie patiëntgericht met tijdvenster</name>
+			<description>Radiologieorders en -resultaten patiëntgericht met tijdvenster</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\radspatient_timewindow_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>03D9451A-07C9-495A-9124-338E0C9A5C32</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Radiologie voor providers</name>
+			<description>Radiologieorders en -resultaten voor providers</description>
+			<type>RADIOLOGY</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Radiologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\radsprovider_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>607EB264-E5AA-4E18-9EBB-436AF1DAF0EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Recapitulatie van verblijf</name>
+			<description>Recapitulatie van verblijf</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Recapitulatie van verblijf\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>B01B9680-496B-42B5-8CC5-DEFC428FA8E2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Recapitulatie van verblijf patiëntgericht</name>
+			<description>Recapitulatie van verblijf patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Recapitulatie van verblijf\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>85BC85DC-ACD7-487C-A0FB-106279998F10</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Verwijsorders</name>
+			<description>Verwijsorders</description>
+			<type>ORDERS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Verwijsorders\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\orders_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>193FCACA-0177-42FF-A069-39FC07A3D9DE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tractusanamnese</name>
+			<description>Tractusanamnese</description>
+			<type>DOC_COMP</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tractusanamnese\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\ros.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>41CF6777-D723-4474-83D5-3DC3B494F71A</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Sociale geschiedenis</name>
+			<description>Sociale geschiedenis</description>
+			<type>SOCIALHX</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Sociale geschiedenis\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\socialhistory_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9ACD8023-2144-40FE-9C08-6FA2B52CF5EF</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Speciale diensten gemeenschapsresources</name>
+			<description>Speciale diensten en gemeenschapsresources</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Speciale diensten en gemeenschapsresources\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>50D93E46-20A6-4F60-91D0-5D5B0655605C</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Speciale diensten gemeenschapsresources</name>
+			<description>Speciale diensten en gemeenschapsresources patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Speciale diensten en gemeenschapsresources\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\patcaremeasurement_namevalue_ptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>F530482C-4A2D-4A8E-B4A9-2E492561E4E0</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Label - gelabelde labs</name>
+			<description>Gelabelde Labs</description>
+			<type>LABS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Labs\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\nl\taggedlabs_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>2AA0D748-E46A-4D4B-AD28-7E48CC6B3BB9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Label - Gelabelde tekst</name>
+			<description>Gelabelde tekst</description>
+			<type>TAGTEXT</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Label - Gelabelde tekst\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\nl\taggedtext_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>5D7E2B53-5802-4D24-9539-DA0235A5F36B</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Gelabelde afbeeldingen</name>
+			<description>Gelabelde afbeeldingen</description>
+			<type>IMAGES</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Afbeeldingen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\tag\nl\taggedimages_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D50F51AB-BBF8-4422-8D5F-E2FC5D356CD2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Testresultaten</name>
+			<description>Voltooide laboratoriumtests</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Testresultaten\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\testresults_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>908694B5-58E9-4567-806D-C0DE3C6A67AC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tests uitstaand</name>
+			<description>Tests uitstaand</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tests uitstaand\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\testspending_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>D124E3D7-843A-4313-9C4B-B7E9F4C834EE</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tests uitstaand patiëntgericht met tijdvenster</name>
+			<description>Laboratorium- en radiologieresultaten uitstaand patiëntgericht met tijdvenster</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tests uitstaand\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\testspending_timewindow_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>E993C662-3E6C-4309-B446-88474BBC75B1</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Tests uitgevoerd</name>
+			<description>Voltooide en uitstaande laboratorium- en radiologietesten</description>
+			<type>TESTSPENDING</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Tests uitgevoerd\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\testsperformed_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>55695F0F-E66F-4B2B-AAE6-6DCD12751FE9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen</name>
+			<description>Meest recente vitale functies en metingen</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen spoed\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasuremented_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>9444551A-7801-4D57-A271-FD6C7BEB27B4</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen cardiologie</name>
+			<description>Vitale functies en metingen cardiologie</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen cardiologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasurementcardiology_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>18384EB5-72DA-45C4-98C3-F40BDCD73DFB</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen neurologie</name>
+			<description>Vitale functies en metingen neurologie</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen neurologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasurementneurology_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>7A04A1C3-29DC-4386-B814-C9C49DFE05C2</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen patiëntgericht</name>
+			<description>Meest recente vitale functies en metingen patiëntgericht</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen patiëntgericht\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasurementptfacing_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>28734561-E0DB-4D1C-9424-17CB56078CEC</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen urologie</name>
+			<description>Vitale functies en metingen urologie</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen urologie\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>C7DDB6AB-CF05-4BA4-850B-724B904CE6A9</referenceuuid>
+		</emrcontent>
+		<emrcontent>
+			<name>Vitale functies en metingen afgelopen 24 uur</name>
+			<description>Vitale functies en metingen binnen 24 uur</description>
+			<type>PATCARE_MEAS</type>
+			<source>cernerbasiccontent</source>
+			<filterKey>
+				<name>Vitale functies en metingen\cernerbasiccontent</name>
+				<source>cernerbasiccontent</source>
+			</filterKey>
+			<formatKey>
+				<name>\cernerbasiccontent\formats\nl\vitalsmeasurement_nl.xslt</name>
+				<source>cernerbasiccontent</source>
+			</formatKey>
+			<referenceuuid>807F87CA-7318-455B-BC24-F1C6590A1F77</referenceuuid>
+		</emrcontent>
+	</emrcontents>
+	<referencetemplates>
+		<referencetemplate>
+			<name>APSO-notitie</name>
+			<description>Sjabloon APSO-notitie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\apsonote_amb_inpt_gastro_gensgy_gyn_ortho_pedi_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Anamnese en lichamelijk onderzoek opname</name>
+			<description>Sjabloon notitie anamnese en lichamelijk onderzoek opname</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\admissionhp_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instructies poliklinisch bezoek</name>
+			<description>Sjabloon instructies poliklinisch bezoek</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\ambulatoryvisitinstructions_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Sjabloon beoordeling &amp; plan</name>
+			<description>Sjabloon gebruikt voor sectie beoordeling &amp; plan in MPages</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\assessmentplan_nl.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>APSO-notitie cardiologie</name>
+			<description>Sjabloon APSO-notitie cardiologie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\apsonote_cardiology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Notitie praktijkbezoek cardiologie</name>
+			<description>Sjabloon notitie praktijkbezoek cardiologie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\officevisitnote_cardiology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Zorgplan</name>
+			<description>Uitgebreid zorgplan</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\careplan_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Klinische samenvatting</name>
+			<description>Sjabloon klinische samenvatting</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\clinicalsummary_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Klembordsjabloon</name>
+			<description>Sjabloon gebruikt voor label &amp; inbegrepen</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\clipboard_nl.html</file>
+			<source>cernerbasiccontent</source>
+			<label_nkeys>
+				<label name="clipboard" system_ind="true" label_type_mean="CLIPBOARD"/>
+			</label_nkeys>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Consultatienotitie</name>
+			<description>Sjabloon consultatienotitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\consultnote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Ontslagnotitie</name>
+			<description>Sjabloon ontslagnotitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\dischargenote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Spoednotitie</name>
+			<description>Sjabloon spoednotitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\ednote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Notitie vrije tekst</name>
+			<description>Sjabloon notitie vrije tekst</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\freetextnote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instructies bij ontslag klinische patiënt</name>
+			<description>Sjabloon instructies bij ontslag klinische patiënt</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\inpatientdischargeinstructions_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>APSO-notitie neurologie</name>
+			<description>Sjabloon APSO-notitie neurologie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\apsonote_neurology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Notitie praktijkbezoek neurologie</name>
+			<description>Sjabloon notitie praktijkbezoek neurologie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\officevisitnote_neurology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Notitie praktijkbezoek</name>
+			<description>Sjabloon notitie praktijkbezoek poliklinische patiënt</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\officevisitnote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Operatienotitie</name>
+			<description>Sjabloon operatienotitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\opnote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Klinische samenvatting na acute zorg</name>
+			<description>Klinische samenvatting na acute zorg</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\postacutecareclinicalsummary_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Instructies bij ontslag na acute zorg</name>
+			<description>Instructies bij ontslag na acute zorg</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\postacutecaredischargeinstructions_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Procedurenotitie</name>
+			<description>Sjabloon procedurenotitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\procedurenote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Voortgang/SOAP-notitie</name>
+			<description>Sjabloon dagelijkse voortgang/SOAP-notitie</description>
+			<file>\cernerbasiccontent\templates\standard templates\nl\progress-soapnote_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>APSO-notitie urologie</name>
+			<description>Sjabloon APSO-notitie urologie</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\apsonote_urology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+		<referencetemplate>
+			<name>Notitie praktijkbezoek urologie</name>
+			<description>Sjabloon notitie praktijkbezoek</description>
+			<file>\cernerbasiccontent\templates\speciality templates\nl\officevisitnote_urology_nl.html</file>
+			<source>cernerbasiccontent</source>
+		</referencetemplate>
+	</referencetemplates>
+</root>

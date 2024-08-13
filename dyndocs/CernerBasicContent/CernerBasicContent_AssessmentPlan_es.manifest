@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+    <filters>
+        <filter>
+            <name>Diagnósticos</name>
+            <description>Diagnósticos</description>
+            <file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Evaluación y plan del paciente ambulatorio</name>
+            <description>Evaluación y plan del paciente ambulatorio</description>
+            <file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Evaluación y plan del paciente interno</name>
+            <description>Evaluación y plan del paciente interno</description>
+            <file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+    </filters>
+    <formats>
+        <format>
+            <description>Evaluación y Plan común (Lógica)</description>
+            <file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Paciente interno de Evaluación y Plan</description>
+            <file>\cernerbasiccontent\formats\es\inpatientaandp_es.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Paciente ambulatorio de Evaluación y Plan</description>
+            <file>\cernerbasiccontent\formats\es\outpatientaandp_es.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Solo diagnóstico de Evaluación y plan</description>
+            <file>\cernerbasiccontent\formats\es\dxonlyaandp_es.xslt</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </format>
+    </formats>
+    <emrcontents>
+        <emrcontent>
+            <name>Paciente interno de Evaluación y Plan</name>
+            <description>Paciente interno de Evaluación y Plan</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Evaluación y plan del paciente interno\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\es\inpatientaandp_es.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Paciente ambulatorio de Evaluación y Plan</name>
+            <description>Paciente ambulatorio de Evaluación y Plan</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Evaluación y plan del paciente ambulatorio\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\es\outpatientaandp_es.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Solo diagnóstico de Evaluación y plan</name>
+            <description>Solo diagnóstico de Evaluación y plan</description>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Diagnósticos\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\es\dxonlyaandp_es.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+        </emrcontent>
+    </emrcontents>
+    <referencetemplates>
+        <referencetemplate>
+            <name>Pacientes internos - Evaluación y plan</name>
+            <description>Plantilla Paciente interno utilizada para la sección Evaluación y plan en MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\es\assessmentplaninpatient_es.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Pacientes ambulatorios - Evaluación y plan</name>
+            <description>Plantilla Paciente ambulatorio utilizada para la sección Evaluación y plan en MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\es\assessmentplanoutpatient_es.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Solo diagnósticos - Evaluación y plan</name>
+            <description>Plantilla de Solo diagnósticos utilizada para la sección Evaluación y plan en MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\es\assessmentplandxonly_es.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+    </referencetemplates>
+</root>

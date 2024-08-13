@@ -1,0 +1,85 @@
+<xsd:schema xmlns="urn:com-cerner-patient-ehr:v3" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            targetNamespace="urn:com-cerner-patient-ehr:v3" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4" jaxb:version="2.0">
+    <xsd:include schemaLocation="../common/date-time/date-time.xsd"/>
+    <xsd:include schemaLocation="../global/person/person-type.xsd" />
+    <xsd:element name="strength-data">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="strength" minOccurs="0" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="strength">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="strength-definition" type="strengthDefinition">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The strength definition associated with the strength.</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="created-by" type="personType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The representation of the individual that created the strength (PERSONNEL, SYSTEM, PATIENT).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="created-date-time" type="dateTimeType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The date and time when the strength was initially entered into the system. Precision is always going to be date and time (YYYY-MM-DDTHH:mm:ss.sssZ).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="start-date" type="dateType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The date when the strength was first reported as present. Precision is always going to be to the day (YYYY-MM-DD).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="end-date" type="dateType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The date when the strength was no longer reported as present. Precision is always going to be to the day (YYYY-MM-DD).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="updated-by" type="personType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The person who last updated the strength (PERSONNEL, SYSTEM, PATIENT).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="updated-date-time" type="dateTimeType" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">The date and time when the strength was updated. Precision is always going to be date and time (YYYY-MM-DDTHH:mm:ss.sssZ).</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The unique identifier of the strength.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="description" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">The description of the strength.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="status-code" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">
+                        The status of this strength (i.e. DOCUMENTED, IN_ERROR).
+                        See ALLOWABLE_STRENGTH_STATUS_TYPES from https://github.cerner.com/ipoc/ipoc-model/blob/master/src/main/java/com/cerner/ipoc/model/strengths/constant/Constant.java.
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="strengthDefinition">
+        <xsd:attribute name="id" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">The unique identifier of the strength definition.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="description" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">A textual description of the strength definition.</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>

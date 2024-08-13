@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<root>
+    <filters>
+        <filter>
+            <name>Diagnosen</name>
+            <description>Diagnosen</description>
+            <file>\cernerbasiccontent\filters\diagnosesfilter.xml</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Poliklinische beoordeling en plan</name>
+            <description>Poliklinische beoordeling en plan</description>
+            <file>\cernerbasiccontent\filters\outpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+        <filter>
+            <name>Klinische beoordeling en plan</name>
+            <description>Klinische beoordeling en plan</description>
+            <file>\cernerbasiccontent\filters\inpatienta&amp;pfilter.xml</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </filter>
+    </filters>
+    <formats>
+        <format>
+            <description>Beoordeling en plan algemeen (logica)</description>
+            <file>\cernerbasiccontent\formats\assessmentandplancommon.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Klinische beoordeling en plan</description>
+            <file>\cernerbasiccontent\formats\nl\inpatientaandp_nl.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Poliklinische beoordeling en plan</description>
+            <file>\cernerbasiccontent\formats\nl\outpatientaandp_nl.xslt</file>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+        </format>
+        <format>
+            <description>Beoordeling en plan voor alleen diagnosen</description>
+            <file>\cernerbasiccontent\formats\nl\dxonlyaandp_nl.xslt</file>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+        </format>
+    </formats>
+    <emrcontents>
+        <emrcontent>
+            <name>Klinische beoordeling en plan</name>
+            <description>Klinische beoordeling en plan</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Klinische beoordeling en plan\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\nl\inpatientaandp_nl.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>67628DC6-7BE0-456E-9E7A-98A7346F2B48</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Poliklinische beoordeling en plan</name>
+            <description>Poliklinische beoordeling en plan</description>
+            <type>DXORDERS</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Poliklinische beoordeling en plan\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\nl\outpatientaandp_nl.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>85C1888F-5322-42AA-AFB5-972A980B6BDD</referenceuuid>
+        </emrcontent>
+        <emrcontent>
+            <name>Beoordeling en plan voor alleen diagnosen</name>
+            <description>Beoordeling en plan voor alleen diagnosen</description>
+            <type>DIAGNOSES</type>
+            <source>cernerbasiccontent</source>
+            <filterKey>
+                <name>Diagnosen\cernerbasiccontent</name>
+                <source>cernerbasiccontent</source>
+            </filterKey>
+            <formatKey>
+                <name>\cernerbasiccontent\formats\nl\dxonlyaandp_nl.xslt</name>
+                <source>cernerbasiccontent</source>
+            </formatKey>
+            <referenceuuid>DEB03B3D-7ED9-449D-B8E2-334F5AA2996D</referenceuuid>
+        </emrcontent>
+    </emrcontents>
+    <referencetemplates>
+        <referencetemplate>
+            <name>Klinisch - Beoordeling &amp; Plan</name>
+            <description>Klinische sjabloon die wordt gebruikt voor de sectie Beoordeling &amp; plan in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\nl\assessmentplaninpatient_nl.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Poliklinisch - Beoordeling &amp; plan</name>
+            <description>Poliklinische sjabloon die wordt gebruikt voor de sectie Beoordeling &amp; plan in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\nl\assessmentplanoutpatient_nl.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+        <referencetemplate>
+            <name>Alleen diagnosen - Beoordeling &amp; plan</name>
+            <description>Sjabloon voor alleen diagnosen die wordt gebruikt voor de sectie Beoordeling &amp; plan in MPages</description>
+            <file>\cernerbasiccontent\templates\standard templates\nl\assessmentplandxonly_nl.html</file>
+            <source>cernerbasiccontent</source>
+            <label_nkeys>
+                <label name="CERNER!3AAB66F1-295B-4ADA-BE1C-D2E29461E861" system_ind="true" label_type_mean="WKF_COMP"/>
+            </label_nkeys>
+        </referencetemplate>
+    </referencetemplates>
+</root>

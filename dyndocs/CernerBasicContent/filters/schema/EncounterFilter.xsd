@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:include schemaLocation="date.xsd" />
+   <xs:element name="encounterfilter">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            This schema defines the format of an encounter filter XML structure.
+            
+            If retrieveBillingDiagnoses is defined in the XML, billing diagnoses information will be returned in addition to the encounter-info.
+         </xs:documentation>
+     </xs:annotation>
+     <xs:complexType>
+         <xs:sequence>
+         	<xs:element ref="daterange" minOccurs="0" maxOccurs="1" />
+         	<xs:element name="resultlimit" type="xs:integer" minOccurs="0" maxOccurs="1" />
+         	<xs:element name="retrieveBillingDiagnoses" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
